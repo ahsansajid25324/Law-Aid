@@ -71,8 +71,10 @@
 }
 
 .feature-details p {
-  color: #6b6b6b;
+  color: rgba(54, 65, 83, 1);
   margin: 0;
+  font-weight: 300;
+
   max-width: 500px;
 }
 
@@ -132,7 +134,6 @@
     color: #b0a08a;
     letter-spacing: 2px;
     margin-bottom: 1re0m;
-
   }
 
   .main-heading {
@@ -183,7 +184,6 @@
   }
 
   .feature-details p {
-    color: #6b6b6b;
     margin: 0;
     max-width: 300px;
   }
