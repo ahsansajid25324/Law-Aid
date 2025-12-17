@@ -15,7 +15,7 @@ const LegalSupportSection = () => {
             <span className="subtitle">WHO WE ARE</span>
           </div>{" "}
           <h2 className="main-heading">
-            Structured Legal Support. Built for Law Firms.
+            Structured Legal Support.Built for Law Firms.
           </h2>
           <p className="description">
             LawAid operates at the intersection of law, business, and legal
