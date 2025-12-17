@@ -1,0 +1,70 @@
+.main-navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.main-navbar.scrolled {
+  background: #1a2a2a;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+  background: transparent;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  color: #fff;
+  font-size: 0.9rem;
+  opacity: 0.9;
+
+  cursor: pointer;
+  font-weight: 400;
+  transition: opacity 0.2s;
+}
+
+.nav-links li:hover {
+  opacity: 1;
+}
+
+.consult-btn {
+  color: #1a2a2a;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 12px;
+  background: rgba(212, 165, 116, 1);
+
+  font-size: 0.85rem;
+  font-weight: 400;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.consult-btn:hover {
+  background: rgba(212, 165, 116, 0.9);
+}
+
+@media (max-width: 768px) {
+  .main-navbar {
+    display: none;
+  }
+}
