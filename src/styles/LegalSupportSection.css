@@ -133,7 +133,6 @@
     letter-spacing: 2px;
     margin-bottom: 1re0m;
 
-    /* sadas */
   }
 
   .main-heading {
@@ -169,7 +168,7 @@
     background-color: rgba(7, 44, 44, 1);
     color: white;
     width: 46px;
-    height: 34px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
