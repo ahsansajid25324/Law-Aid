@@ -1,4 +1,6 @@
 import React from "react";
+import { Splide, SplideSlide } from "@splidejs/react-splide";
+import "@splidejs/react-splide/css";
 import "../../styles/PracticeArea.css";
 
 const practiceAreasData = [
@@ -28,23 +30,64 @@ const practiceAreasData = [
   },
 ];
 
+// Simple hook to detect mobile screen
+function useIsMobile() {
+  const [isMobile, setIsMobile] = React.useState(window.innerWidth < 768);
+  React.useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth < 768);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+  return isMobile;
+}
+
 const PracticeAreas: React.FC = () => {
+  const isMobile = useIsMobile();
+
   return (
     <section className="practice-areas-section">
       <div className="px-0 container">
-        <div className="practice-areas-grid">
-          {practiceAreasData.map((area, index) => (
-            <div className="practice-area-card" key={index}>
-              <div className="card-content">
-                <div className="card-header">
-                  <h3 className="card-title">{area.title}</h3>
-                  <span className="card-number">{area.number}</span>
+        {isMobile ? (
+          <Splide
+            options={{
+              perPage: 1,
+              gap: 0,
+              arrows: true,
+              pagination: false,
+              drag: "free",
+              type: "loop",
+            }}
+          >
+            {practiceAreasData.map((area, index) => (
+              <SplideSlide key={index}>
+                <div className="practice-area-card">
+                  <div className="card-content">
+                    <div className="card-header">
+                      <h3 className="card-title">{area.title}</h3>
+                      <span className="card-number">{area.number}</span>
+                    </div>
+                    <p className="card-description">{area.description}</p>
+                  </div>
                 </div>
-                <p className="card-description">{area.description}</p>
+              </SplideSlide>
+            ))}
+          </Splide>
+        ) : (
+          <div className="practice-areas-grid">
+            {practiceAreasData.map((area, index) => (
+              <div className="practice-area-card" key={index}>
+                <div className="card-content">
+                  <div className="card-header">
+                    <h3 className="card-title">{area.title}</h3>
+                    <span className="card-number">{area.number}</span>
+                  </div>
+                  <p className="card-description">{area.description}</p>
+                </div>
+                
               </div>
-            </div>
-          ))}
-        </div>
+            ))}
+          </div>
+        )}
       </div>
     </section>
   );

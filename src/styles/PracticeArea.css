@@ -1,6 +1,7 @@
 .practice-areas-section {
-  padding: 1.5rem 0;
-  background-color: #ffffff;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem 0;
 }
 
 .practice-areas-grid {
@@ -10,13 +11,22 @@
 }
 
 .practice-area-card {
-  background-color: rgba(249, 246, 238, 0.3);
-  padding: 1.5rem;
+  background: #fff;
   border-radius: 0;
-  position: relative;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  min-height: 220px;
+  display: flex;
   border-left: 4px solid rgba(212, 165, 116, 0.2);
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem 1.5rem;
 }
 
+.splide__slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .card-content {
   display: flex;
   flex-direction: column;
@@ -61,3 +71,73 @@
     color: rgba(212, 165, 116, 1);
   }
 }
+
+@media (max-width: 768px) {
+  .practice-areas-section {
+    padding: 0;
+  }
+
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+  }
+
+  .practice-area-card {
+    background: #fff;
+    border-radius: 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    display: flex;
+    border-left: 4px solid rgba(212, 165, 116, 0.2);
+    flex-direction: column;
+    min-height: 240px;
+    justify-content: start;
+    padding: 1rem 1rem;
+  }
+
+  .card-title {
+    font-size: 2rem;
+    font-weight: 500;
+    max-width: 80%;
+  }
+
+  .card-number {
+    font-size: 2.25rem;
+  }
+
+  .card-description {
+    font-size: 0.8rem;
+    color: rgba(74, 85, 101, 1);
+    max-width: 400px;
+    line-height: 1.6;
+    margin-top: 0.5rem;
+  }
+
+  .practice-area-card:hover {
+    border-left: unset;
+    background-color: unset;
+    .card-number {
+      color: unset;
+    }
+    .card-title {
+      color: unset;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .splide__slide.is-active .practice-area-card {
+    border-left: 4px solid #c89c5d;
+    background-color: rgba(249, 246, 238, 1);
+  }
+
+  .splide__slide.is-active .card-number {
+    color: rgba(212, 165, 116, 0.43);
+  }
+
+  .splide__slide.is-active .card-title {
+    color: rgba(212, 165, 116, 1);
+  }
+}
+
