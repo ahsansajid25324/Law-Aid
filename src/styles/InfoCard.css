@@ -82,3 +82,9 @@
     margin: 0;
   }
 }
+
+.splide__slide.is-active .info-card {
+  background-color: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(212, 165, 116, 0.53);
+  transform: scale(1.03);
+}
