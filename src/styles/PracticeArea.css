@@ -141,3 +141,38 @@
   }
 }
 
+.splide {
+  padding-bottom: 3rem;
+}
+
+/* Arrow container */
+.splide__arrows {
+  position: absolute;
+  bottom: -1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 1rem;
+}
+
+/* Arrow buttons */
+.splide__arrow {
+  position: static;
+  width: 32px;
+  height: 32px;
+  background: transparent;
+  border: 1px solid rgba(212, 165, 116, 0.4);
+  border-radius: 50%;
+  opacity: 1;
+}
+
+.splide__arrow svg {
+  fill: rgba(7, 44, 44, 1);
+  width: 14px;
+  height: 14px;
+}
+
+.splide__arrow:hover {
+  background-color: rgba(212, 165, 116, 0.1);
+  border-color: #c89c5d;
+}
