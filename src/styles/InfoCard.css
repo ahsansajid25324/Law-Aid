@@ -10,7 +10,7 @@
   height: 100%;
 }
 
-    .info-card-icon {
+.info-card-icon {
   color: #c9a877;
   font-size: 2rem;
   margin-bottom: 1rem;
@@ -25,7 +25,7 @@
 }
 
 .info-card-title {
-  font-size: 2.3rem;
+  font-size: 2.4rem;
   line-height: 1.2;
   font-weight: 500;
   margin-bottom: 1rem;

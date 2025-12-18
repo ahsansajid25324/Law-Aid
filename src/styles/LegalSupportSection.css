@@ -26,7 +26,7 @@
 }
 
 .main-heading {
-  font-size: 2.2rem;
+  font-size: 2.4rem;
   font-weight: bold;
   margin-top: 1rem;
   margin-bottom: 1.5rem;
@@ -41,6 +41,8 @@
 }
 
 .features-list {
+  display: flex;
+  flex-wrap: wrap;
   margin-top: 2rem;
 }
 
