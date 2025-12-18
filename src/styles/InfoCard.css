@@ -73,7 +73,7 @@
     font-size: 2.4rem;
     line-height: 1.2;
     font-weight: 500;
-    margin-bottom: 1rem;
+    margin-bottom: 12px;
   }
 
   .info-card-items {
@@ -81,10 +81,45 @@
     padding: 0;
     margin: 0;
   }
+
+  .info-card-icon {
+    color: #c9a877;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    background: rgba(212, 165, 116, 0.2);
+    height: 36px;
+    width: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .info-card-description {
+    margin-bottom: 1rem;
+  }
 }
 
-.splide__slide.is-active .info-card {
-  background-color: rgba(255, 255, 255, 0.12);
-  border: 1px solid rgba(212, 165, 116, 0.53);
-  transform: scale(1.03);
+.splide__slide img {
+  width: 24px;
+  height: 24px;
+}
+
+@media (max-width: 1000px) {
+  .info-card,
+  .info-card-title {
+    transition: border-left 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+      background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+      color 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+      box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+      transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .splide__slide.is-active .info-card {
+    background-color: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(212, 165, 116, 0.53);
+    box-shadow: 0 4px 24px rgba(200, 156, 93, 0.15);
+    transform: scale(1.03);
+  }
 }
