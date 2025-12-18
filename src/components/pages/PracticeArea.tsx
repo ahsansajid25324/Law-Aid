@@ -81,7 +81,7 @@ const PracticeAreas: React.FC = () => {
                     <h3 className="card-title">{area.title}</h3>
                     <span className="card-number">{area.number}</span>
                   </div>
-                  <p className="card-description">{area.description}</p>
+                  <p className="mt-2 card-description">{area.description}</p>
                 </div>
               </div>
             ))}
