@@ -7,6 +7,7 @@
   display: flex;
   flex-direction: column;
   padding: 16px 16px;
+  width: 100%;
   height: 100%;
 }
 
@@ -60,6 +61,24 @@
 
 .info-card:hover {
   background-color: rgba(255, 255, 255, 0.12);
-
   border: 1px solid rgba(212, 165, 116, 0.53);
+}
+
+@media screen and (max-width: 1000px) {
+  .info-card-description {
+    flex-grow: 0;
+  }
+
+  .info-card-title {
+    font-size: 2.4rem;
+    line-height: 1.2;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+
+  .info-card-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
 }

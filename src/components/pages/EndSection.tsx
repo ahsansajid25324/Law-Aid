@@ -7,8 +7,23 @@ import Icon3 from "../../assets/c.svg";
 import Icon4 from "../../assets/d.svg";
 import Icon5 from "../../assets/e.svg";
 import Icon6 from "../../assets/f.svg";
+import React from "react";
+import { Splide, SplideSlide } from "@splidejs/react-splide";
+import "@splidejs/react-splide/css";
+
+// Simple hook to detect mobile screen
+function useIsMobile() {
+  const [isMobile, setIsMobile] = React.useState(window.innerWidth < 1000);
+  React.useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth < 1000);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+  return isMobile;
+}
 
 const EndSection = () => {
+  const isMobile = useIsMobile();
   const cardData = [
     {
       icon: <img src={Icon2} alt="Humanitarian Relief Support icon" />,
@@ -98,17 +113,47 @@ const EndSection = () => {
           </p>
         </div>
 
-        <div className="info-grid">
-          {cardData.map((card, index) => (
-            <InfoCard
-              key={index}
-              icon={card.icon}
-              title={card.title}
-              description={card.description}
-              items={card.items}
-            />
-          ))}
-        </div>
+        {isMobile ? (
+          <Splide
+            options={{
+              perPage: 2,
+              gap: 20,
+              arrows: true,
+              pagination: false,
+              drag: "free",
+              type: "loop",
+              breakpoints: {
+                768: {
+                  perPage: 1,
+                  gap: 0,
+                },
+              },
+            }}
+          >
+            {cardData.map((card, index) => (
+              <SplideSlide key={index}>
+                <InfoCard
+                  icon={card.icon}
+                  title={card.title}
+                  description={card.description}
+                  items={card.items}
+                />
+              </SplideSlide>
+            ))}
+          </Splide>
+        ) : (
+          <div className="info-grid">
+            {cardData.map((card, index) => (
+              <InfoCard
+                key={index}
+                icon={card.icon}
+                title={card.title}
+                description={card.description}
+                items={card.items}
+              />
+            ))}
+          </div>
+        )}
       </div>
     </section>
   );

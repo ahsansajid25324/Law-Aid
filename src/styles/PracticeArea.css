@@ -100,7 +100,7 @@
 }
 
 .splide__arrow svg {
-  fill: grey;
+  fill: grey !important;
   width: 14px;
   height: 14px;
 }
