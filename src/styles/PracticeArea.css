@@ -1,0 +1,63 @@
+.practice-areas-section {
+  padding: 1.5rem 0;
+  background-color: #ffffff;
+}
+
+.practice-areas-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.practice-area-card {
+  background-color: rgba(249, 246, 238, 0.3);
+  padding: 1.5rem;
+  border-radius: 0;
+  position: relative;
+  border-left: 4px solid rgba(212, 165, 116, 0.2);
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.card-title {
+  font-size: 2rem;
+  font-weight: 550;
+  color: #2c3e50;
+  max-width: 80%;
+}
+
+.card-number {
+  font-size: 3rem;
+  font-weight: 400;
+  color: rgba(212, 165, 116, 0.1);
+  line-height: 1;
+}
+
+.card-description {
+  font-size: 0.9rem;
+  color: rgba(74, 85, 101, 1);
+  max-width: 500px;
+  line-height: 1.6;
+}
+
+.practice-area-card:hover {
+  border-left: 4px solid #c89c5d;
+  background-color: rgba(249, 246, 238, 1);
+  .card-number {
+    color: rgba(212, 165, 116, 0.43);
+  }
+  .card-title {
+    color: rgba(212, 165, 116, 1);
+  }
+}
