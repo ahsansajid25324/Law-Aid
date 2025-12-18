@@ -72,6 +72,61 @@
   }
 }
 
+.splide {
+  padding-bottom: 3rem;
+}
+
+/* Arrow container */
+.splide__arrows {
+  position: absolute;
+  bottom: -1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 1rem;
+}
+
+/* Arrow buttons */
+.splide__arrow {
+  position: static;
+  width: 32px;
+  height: 32px;
+  background: transparent;
+  border: 1px solid rgba(212, 165, 116, 0.4);
+  border-radius: 50%;
+  opacity: 1;
+}
+
+.splide__arrow svg {
+  fill: grey;
+  width: 14px;
+  height: 14px;
+}
+
+.splide__arrow:hover {
+  background-color: rgba(212, 165, 116, 0.1);
+  border-color: #c89c5d;
+}
+
+.testimonial-box {
+  background: rgba(7, 44, 44, 0.05);
+  border-left: 4px solid rgba(212, 165, 116, 1);
+  margin: 40px auto 0 auto;
+  padding: 32px 24px;
+  max-width: 900px;
+  font-size: 1.3rem;
+  font-weight: 300;
+  color: rgba(54, 65, 83, 1);
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.testimonial-box p {
+  margin: 0;
+  font-style: italic;
+  color: #2d3748;
+}
+
 @media (max-width: 768px) {
   .practice-areas-section {
     padding: 0;
@@ -124,6 +179,13 @@
       color: unset;
     }
   }
+
+  .testimonial-box {
+    margin: 20px auto 0 auto;
+    padding: 12px 6px;
+    max-width: 900px;
+    font-size: 1rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -139,40 +201,4 @@
   .splide__slide.is-active .card-title {
     color: rgba(212, 165, 116, 1);
   }
-}
-
-.splide {
-  padding-bottom: 3rem;
-}
-
-/* Arrow container */
-.splide__arrows {
-  position: absolute;
-  bottom: -1rem;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  gap: 1rem;
-}
-
-/* Arrow buttons */
-.splide__arrow {
-  position: static;
-  width: 32px;
-  height: 32px;
-  background: transparent;
-  border: 1px solid rgba(212, 165, 116, 0.4);
-  border-radius: 50%;
-  opacity: 1;
-}
-
-.splide__arrow svg {
-  fill: grey;
-  width: 14px;
-  height: 14px;
-}
-
-.splide__arrow:hover {
-  background-color: rgba(212, 165, 116, 0.1);
-  border-color: #c89c5d;
 }

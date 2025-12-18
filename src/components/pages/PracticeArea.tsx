@@ -83,11 +83,19 @@ const PracticeAreas: React.FC = () => {
                   </div>
                   <p className="card-description">{area.description}</p>
                 </div>
-                
               </div>
             ))}
           </div>
         )}
+        <div className="testimonial-box">
+          <p>
+            <em>
+              "Each engagement is structured to align with the firm's practice
+              focus, <span className="italic">internal processes</span>,
+              timelines, and risk profile."
+            </em>
+          </p>
+        </div>
       </div>
     </section>
   );
