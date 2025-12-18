@@ -201,4 +201,18 @@
   .splide__slide.is-active .card-title {
     color: rgba(212, 165, 116, 1);
   }
+  .practice-area-card,
+  .card-number,
+  .card-title {
+    transition: border-left 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+      background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+      color 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+      box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+      transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .splide__slide.is-active .practice-area-card {
+    box-shadow: 0 4px 24px rgba(200, 156, 93, 0.15);
+    transform: scale(1.03);
+  }
 }
