@@ -5,6 +5,7 @@ import Navbar from "./components/pages/Navbar";
 import EndSection from "./components/pages/EndSection";
 import AdvantageSection from "./components/pages/AdvantageSection";
 import StartedSection from "./components/pages/StartedSection";
+import SemiContact from "./components/pages/SemiContact";
 const App = () => {
   return (
     <>
@@ -15,6 +16,7 @@ const App = () => {
       <EndSection />
       <AdvantageSection />
       <StartedSection />
+      <SemiContact />
     </>
   );
 };
