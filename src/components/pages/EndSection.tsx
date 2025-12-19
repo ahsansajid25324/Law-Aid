@@ -107,9 +107,9 @@ const EndSection = () => {
             End-to-End Legal Support Services
           </h2>
           <p className="end-description text-white">
-            LawAid exclusively serves attorneys and law firms across the United
-            States. Each engagement is structured to align with your practice
-            focus, internal processes, timelines, and risk profile.
+            Comprehensive support designed to strengthen attorney-led
+            representation across immigration, business, and humanitarian
+            matters.
           </p>
         </div>
 
