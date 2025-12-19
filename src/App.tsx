@@ -4,6 +4,7 @@ import LegalSupportSection from "./components/pages/LegalSupportSection";
 import Navbar from "./components/pages/Navbar";
 import EndSection from "./components/pages/EndSection";
 import AdvantageSection from "./components/pages/AdvantageSection";
+import StartedSection from "./components/pages/StartedSection";
 const App = () => {
   return (
     <>
@@ -13,6 +14,7 @@ const App = () => {
       <LegalSection />
       <EndSection />
       <AdvantageSection />
+      <StartedSection />
     </>
   );
 };
