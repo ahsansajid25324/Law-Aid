@@ -3,6 +3,7 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import "../../styles/AdvantageSection.css";
 import "../../styles/HeroSection.css";
+import Tick from "../../assets/tick.svg";
 import {
   CheckCircle2,
   Shield,
@@ -11,8 +12,8 @@ import {
   Lock,
   Target,
 } from "lucide-react";
+import WorkflowsImage from "../../assets/Workflows.png";
 
-// Simple hook to detect mobile screen
 function useIsMobile() {
   const [isMobile, setIsMobile] = React.useState(window.innerWidth < 900);
   React.useEffect(() => {
@@ -116,6 +117,34 @@ const AdvantageSection = () => {
             ))}
           </div>
         )}
+      </div>
+
+      <div className="container workflows-section">
+        <div className="workflows-image">
+          <img src={WorkflowsImage} alt="Law Firm Workflows" />
+        </div>
+        <div className="workflows-content">
+          <h2>Built Specifically for Law Firm Workflows</h2>
+          <p>
+            Our services integrate seamlessly into attorney-led practices,
+            enhancing capacity, consistency, and efficiency without compromising
+            legal authority, confidentiality, or compliance.
+          </p>
+          <ul>
+            <li>
+              <img src={Tick}></img>No operational burden, staffing overhead, or
+              infrastructure costs
+            </li>
+            <li>
+              <img src={Tick}></img> Complete attorney control and client
+              confidentiality maintained
+            </li>
+            <li>
+              <img src={Tick}></img> Scalable support aligned with your firm's
+              caseload and timeline
+            </li>
+          </ul>
+        </div>
       </div>
     </section>
   );

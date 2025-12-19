@@ -131,3 +131,122 @@
     margin-top: 0;
   }
 }
+
+.workflows-section {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 0;
+  align-items: stretch;
+
+  margin-top: 4rem;
+}
+
+.workflows-image img {
+  width: 100%;
+  border-radius: 0;
+  height: 100%;
+  align-items: stretch;
+  object-fit: cover;
+}
+
+.workflows-content {
+  flex: 1;
+}
+
+.workflows-content h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+.workflows-content p {
+  font-size: 1.1rem;
+  color: rgba(54, 65, 83, 1);
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.workflows-content ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 0;
+}
+
+.workflows-content li {
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+  color: #555;
+  padding: 24px 0;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.workflows-content li:last-child {
+  border-bottom: none;
+}
+
+.workflows-content li img {
+  margin-right: 10px;
+  width: 28px;
+  height: 28px;
+}
+
+@media (max-width: 990px) {
+  .workflows-section {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 0;
+    align-items: stretch;
+
+    margin-top: 1.5rem;
+  }
+
+  .workflows-content h2 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    max-width: 500px;
+    margin-bottom: 10px;
+  }
+
+  .workflows-content p {
+    font-size: 1rem;
+    color: rgba(54, 65, 83, 1);
+    line-height: 1.6;
+    margin-bottom: 0;
+  }
+
+  .workflows-content ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+  }
+
+  .workflows-content li {
+    display: flex;
+    align-items: flex-start;
+    font-size: 1rem;
+    max-width: 300px;
+    color: #555;
+    padding: 16px 0;
+    border-bottom: 1px solid #e8e8e8;
+  }
+
+  .workflows-content li:last-child {
+    border-bottom: none;
+  }
+
+  .workflows-content li img {
+    margin-right: 10px;
+    width: 28px;
+    height: 28px;
+    margin-top: 4px;
+  }
+}
