@@ -170,7 +170,7 @@
 
 .drawer-links a:hover,
 .drawer-links .active a {
-  color: rgba(212, 165, 116, 1); /* Set your desired hover/active color */
+  color: rgba(212, 165, 116, 1); 
   text-decoration: none;
 }
 

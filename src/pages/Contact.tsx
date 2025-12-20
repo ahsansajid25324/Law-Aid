@@ -1,7 +1,8 @@
 import Footer from "../components/pages/Footer";
 import Navbar from "../components/pages/Navbar";
 import OtherHero from "../components/pages/OtherHero";
-
+import Touch from "../components/pages/Touch";
+import Connect from "../components/pages/Connect";
 const Contact = () => {
   const heroData = {
     subtitle: "GET IN TOUCH",
@@ -19,6 +20,8 @@ const Contact = () => {
         description={heroData.description}
       />
 
+      <Touch />
+      <Connect />
       <Footer />
     </>
   );
