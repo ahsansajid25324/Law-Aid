@@ -114,6 +114,9 @@
     width: 40px;
     height: 40px;
   }
+  .vendor-content {
+    gap: 0.5rem;
+  }
 }
 
 /* Tablet */
