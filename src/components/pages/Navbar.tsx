@@ -5,6 +5,8 @@ import { GiHamburgerMenu } from "react-icons/gi";
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
 
+  const [activeLink, setActiveLink] = useState("Home");
+
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 50);
@@ -12,6 +14,7 @@ const Navbar = () => {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+  const navLinks = ["Home", "Services", "About", "Expertise", "Contact"];
 
   return (
     <>
@@ -22,10 +25,15 @@ const Navbar = () => {
           </div>
           <div className="d-flex gap-4 align-items-center">
             <ul className="nav-links">
-              <li>Services</li>
-              <li>About</li>
-              <li>Expertise</li>
-              <li>Contact</li>
+              {navLinks.map((link) => (
+                <li
+                  key={link}
+                  className={activeLink === link ? "active" : ""}
+                  onClick={() => setActiveLink(link)}
+                >
+                  {link}
+                </li>
+              ))}
             </ul>
             <button className="consult-btn">Begin Consultation</button>
           </div>
@@ -44,7 +52,6 @@ const Navbar = () => {
     </>
   );
 };
-
 
 // fdsd
 
