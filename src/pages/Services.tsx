@@ -3,6 +3,7 @@ import Navbar from "../components/pages/Navbar";
 import OtherHero from "../components/pages/OtherHero";
 import ExecutionSection from "../components/pages/ExecutionSection";
 import Professional from "../components/pages/Professional";
+import Vendor from "../components/pages/Vendor";
 const Services = () => {
   const heroData = {
     subtitle: "OUR SERVICES",
@@ -27,6 +28,7 @@ const Services = () => {
       />
       <ExecutionSection />
       <Professional />
+      <Vendor />
       <Footer />
     </>
   );
