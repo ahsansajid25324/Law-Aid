@@ -91,3 +91,79 @@
 .mobile-navbar.scrolled {
   background: #1a2a2a;
 }
+
+/* ===================== */
+/* Mobile Drawer */
+/* ===================== */
+
+.drawer-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 999;
+}
+
+.mobile-drawer {
+  position: fixed;
+  top: 0;
+  right: -280px;
+  width: 260px;
+  height: 100vh;
+  background: #0f2e2e;
+  z-index: 1000;
+  padding: 16px;
+  transition: right 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-drawer.open {
+  right: 0;
+}
+
+.drawer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  margin-bottom: 24px;
+  font-size: 1rem;
+}
+
+.drawer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex: 1;
+}
+
+.drawer-links li {
+  padding: 14px 0;
+  padding-left: 12px;
+
+  color: #fff;
+  font-size: 0.95rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+}
+
+.drawer-links li:hover {
+  color: rgba(212, 165, 116, 1);
+}
+
+.drawer-btn {
+  background: rgba(212, 165, 116, 1);
+  color: #1a2a2a;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+/* Active drawer link */
+.drawer-links li.active {
+  background: rgba(212, 165, 116, 0.15);
+  color: rgba(212, 165, 116, 1);
+  border-radius: 2px;
+}

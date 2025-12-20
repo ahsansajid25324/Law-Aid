@@ -2,10 +2,12 @@ import { useEffect, useState } from "react";
 import "../../styles/Navbar.css";
 import Logo from "../../assets/logo.png";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { IoClose } from "react-icons/io5";
+
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
-
   const [activeLink, setActiveLink] = useState("Home");
+  const [openDrawer, setOpenDrawer] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -14,10 +16,12 @@ const Navbar = () => {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
   const navLinks = ["Home", "Services", "About", "Expertise", "Contact"];
 
   return (
     <>
+      {/* Desktop Navbar */}
       <div className={`main-navbar${scrolled ? " scrolled" : ""}`}>
         <nav className="container px-0 py-3 navbar">
           <div className="logo">
@@ -39,20 +43,53 @@ const Navbar = () => {
           </div>
         </nav>
       </div>
+
+      {/* Mobile Navbar */}
       <div className={`mobile-navbar${scrolled ? " scrolled" : ""}`}>
-        <nav className="container px-0  navbar">
+        <nav className="container px-0 navbar">
           <div className="logo">
-            <img width={140} height={20} src={Logo} alt="LawAid Logo" />
+            <img width={140} src={Logo} alt="LawAid Logo" />
           </div>
-          <div>
-            <GiHamburgerMenu color="#fff" size={18} />
-          </div>
+          <GiHamburgerMenu
+            color="#fff"
+            size={20}
+            onClick={() => setOpenDrawer(true)}
+            style={{ cursor: "pointer" }}
+          />
         </nav>
+      </div>
+
+      {/* Overlay */}
+      {openDrawer && (
+        <div className="drawer-overlay" onClick={() => setOpenDrawer(false)} />
+      )}
+
+      {/* Drawer */}
+      <div className={`mobile-drawer ${openDrawer ? "open" : ""}`}>
+        <div className="drawer-header">
+          <span>Menu</span>
+          <IoClose size={22} onClick={() => setOpenDrawer(false)} />
+        </div>
+
+        <ul className="drawer-links">
+          {navLinks.map((link) => (
+            <li
+              key={link}
+              className={activeLink === link ? "active" : ""}
+              onClick={() => {
+                setActiveLink(link);
+                setOpenDrawer(false);
+              }}
+            >
+              {link}
+            </li>
+          ))}
+        </ul>
+
+        <button className="drawer-btn">Begin Consultation</button>
       </div>
     </>
   );
 };
-
-// fdsd
 
 export default Navbar;
