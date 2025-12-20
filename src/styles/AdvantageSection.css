@@ -37,7 +37,6 @@
   max-width: 750px;
 }
 
-/* Cards Grid */
 .advantage-cards-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
