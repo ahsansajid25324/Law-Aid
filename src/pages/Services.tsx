@@ -7,7 +7,7 @@ import Vendor from "../components/pages/Vendor";
 const Services = () => {
   const heroData = {
     subtitle: "OUR SERVICES",
-    title: "Immigration Case Support Services.",
+    title: "Immigration Case Support Services",
     description:
       "Structured, scalable support designed exclusively for U.S. immigration attorneys and law firms—strengthening attorney-led representation through reliable execution.",
     stats: [

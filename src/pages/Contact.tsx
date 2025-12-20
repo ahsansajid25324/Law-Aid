@@ -1,0 +1,27 @@
+import Footer from "../components/pages/Footer";
+import Navbar from "../components/pages/Navbar";
+import OtherHero from "../components/pages/OtherHero";
+
+const Contact = () => {
+  const heroData = {
+    subtitle: "GET IN TOUCH",
+    title: "Contact LawAid",
+    description:
+      "LawAid partners exclusively with U.S. immigration attorneys and law firms to provide structured, reliable legal and operational support services. If your firm is seeking scalable capacity, consistent execution, or specialized case support, our team is ready to assist.",
+  };
+
+  return (
+    <>
+      <Navbar />
+      <OtherHero
+        subtitle={heroData.subtitle}
+        title={heroData.title}
+        description={heroData.description}
+      />
+
+      <Footer />
+    </>
+  );
+};
+
+export default Contact;

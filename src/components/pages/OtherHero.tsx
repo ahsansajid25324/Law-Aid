@@ -9,7 +9,7 @@ interface OtherHeroProps {
   subtitle: string;
   title: string;
   description: string;
-  stats: Stat[];
+  stats?: Stat[];
 }
 
 const OtherHero = ({ subtitle, title, description, stats }: OtherHeroProps) => (
@@ -25,7 +25,7 @@ const OtherHero = ({ subtitle, title, description, stats }: OtherHeroProps) => (
         <p className="text-center">{description}</p>
 
         <div className="stats text-center">
-          {stats.map((stat, index) => (
+          {stats?.map((stat, index) => (
             <div key={index}>
               <span className="stat-number">{stat.number}</span>
               <span className="stat-label">{stat.label}</span>
