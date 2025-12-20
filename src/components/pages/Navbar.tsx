@@ -3,10 +3,10 @@ import "../../styles/Navbar.css";
 import Logo from "../../assets/logo.png";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoClose } from "react-icons/io5";
+import { Link, useLocation } from "react-router-dom";
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
-  const [activeLink, setActiveLink] = useState("Home");
   const [openDrawer, setOpenDrawer] = useState(false);
 
   useEffect(() => {
@@ -17,8 +17,15 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const navLinks = ["Home", "Services", "About", "Expertise", "Contact"];
+  const navLinks = [
+    { name: "Home", path: "/" },
+    { name: "Services", path: "/services" },
+    { name: "About", path: "/about" },
+    { name: "Expertise", path: "/expertise" },
+    { name: "Contact", path: "/contact" },
+  ];
 
+  const location = useLocation();
   return (
     <>
       {/* Desktop Navbar */}
@@ -27,18 +34,19 @@ const Navbar = () => {
           <div className="logo">
             <img src={Logo} alt="LawAid Logo" />
           </div>
+
           <div className="d-flex gap-4 align-items-center">
             <ul className="nav-links">
               {navLinks.map((link) => (
                 <li
-                  key={link}
-                  className={activeLink === link ? "active" : ""}
-                  onClick={() => setActiveLink(link)}
+                  key={link.name}
+                  className={location.pathname === link.path ? "active" : ""}
                 >
-                  {link}
+                  <Link to={link.path}>{link.name}</Link>
                 </li>
               ))}
             </ul>
+
             <button className="consult-btn">Begin Consultation</button>
           </div>
         </nav>
@@ -50,6 +58,7 @@ const Navbar = () => {
           <div className="logo">
             <img width={140} src={Logo} alt="LawAid Logo" />
           </div>
+
           <GiHamburgerMenu
             color="#fff"
             size={20}
@@ -68,20 +77,21 @@ const Navbar = () => {
       <div className={`mobile-drawer ${openDrawer ? "open" : ""}`}>
         <div className="drawer-header">
           <span>Menu</span>
-          <IoClose size={22} onClick={() => setOpenDrawer(false)} />
+          <IoClose
+            size={22}
+            style={{ cursor: "pointer" }}
+            onClick={() => setOpenDrawer(false)}
+          />
         </div>
 
         <ul className="drawer-links">
           {navLinks.map((link) => (
             <li
-              key={link}
-              className={activeLink === link ? "active" : ""}
-              onClick={() => {
-                setActiveLink(link);
-                setOpenDrawer(false);
-              }}
+              key={link.name}
+              className={location.pathname === link.path ? "active" : ""}
+              onClick={() => setOpenDrawer(false)}
             >
-              {link}
+              <Link to={link.path}>{link.name}</Link>
             </li>
           ))}
         </ul>

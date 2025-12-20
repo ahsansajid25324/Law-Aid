@@ -1,5 +1,5 @@
 .other-landing-container {
-  background: url("../assets/HeroBg.png") center/cover no-repeat;
+  background: url("../assets/otherBg.png") center/cover no-repeat;
   background-color: rgba(7, 44, 44, 1);
   height: 100vh;
   display: flex;
@@ -90,7 +90,7 @@
     height: auto;
   }
   .other-hero-section {
-    padding: 70px 0 40px 0;
+    padding: 80px 0 40px 0;
   }
 
   .subtitle-with-line {

@@ -2,6 +2,7 @@ import "../../styles/Footer.css";
 import { FaLinkedinIn } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
 import Logo from "../../assets/logo.png";
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer className="footer">
@@ -41,12 +42,21 @@ const Footer = () => {
         <div className="footer-col">
           <h3>Company</h3>
           <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Expertise</li>
-            <li>Case Studies</li>
-            <li>Resources</li>
-            <li>Contact</li>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/services">Services</Link>
+            </li>
+            <li>
+              <Link to="/about">About</Link>
+            </li>
+            <li>
+              <Link to="/expertise">Expertise</Link>
+            </li>
+            <li>
+              <Link to="/contact">Contact</Link>
+            </li>
           </ul>
         </div>
 
