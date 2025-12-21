@@ -1,5 +1,5 @@
 import "../../styles/Execution.css";
-import Support from "../../assets/Support2.png";
+import Support from "../../assets/AboutBg.png";
 import "../../styles/HeroSection.css";
 
 const ExecutionSupportSection = () => {
