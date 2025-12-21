@@ -1,0 +1,252 @@
+.imm-support-section {
+  background-color: #fff;
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imm-support-content {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  gap: 0;
+
+  .main-heading {
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+  }
+}
+
+.imm-support-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  margin-top: 60px;
+}
+
+.imm-support-text h3 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #0f2f2f;
+}
+
+.intro-text {
+  color: #5f6f73;
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+
+.imm-support-text h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 24px 0 16px;
+}
+
+/* LIST */
+.support-list {
+  list-style: none;
+  padding: 0;
+}
+
+.support-list li {
+  position: relative;
+  padding-left: 28px;
+  margin-bottom: 14px;
+  font-size: 16px;
+  color: #3f4f53;
+}
+
+.support-list li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #c89b6d;
+  font-weight: bold;
+}
+
+.law-firm-box {
+  background: rgba(249, 246, 238, 1);
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.law-firm-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.law-firm-box li {
+  position: relative;
+  padding-left: 24px;
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+
+.law-firm-box li::before {
+  content: "➜";
+  position: absolute;
+  left: 0;
+  color: #c89b6d;
+}
+
+/* RIGHT IMAGE */
+.imm-support-image {
+  position: relative;
+}
+
+.imm-support-image img {
+  width: 100%;
+  border-radius: 12px;
+  max-height: 440px;
+  /* display: block; */
+}
+
+.law-text {
+  font-size: 20px;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+.imm-testimonial {
+  background: rgba(7, 44, 44, 0.05);
+  border-left: 4px solid rgba(212, 165, 116, 1);
+  margin: 40px auto 0 auto;
+  padding: 20px;
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: rgba(54, 65, 83, 1);
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.imm-testimonial p {
+  margin: 0;
+  font-style: italic;
+  color: #2d3748;
+}
+@media (max-width: 900px) {
+  .imm-support-grid {
+    grid-template-columns: 1fr;
+    margin-top: 16px;
+    gap: 0;
+  }
+
+  .imm-support-image {
+    margin-top: 32px;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .imm-support-content {
+    flex-direction: column;
+    gap: 0;
+
+    .main-heading {
+      font-size: 2.4rem;
+      margin-top: 0.5rem;
+      margin-bottom: 0.8rem;
+    }
+  }
+
+  .imm-support-section {
+    padding: 0 16px 50px 16px;
+  }
+
+  /* LEFT TEXT */
+  .imm-support-text h3 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: #0f2f2f;
+  }
+
+  .intro-text {
+    color: #5f6f73;
+    font-size: 16px;
+    margin-bottom: 24px;
+  }
+
+  .imm-support-text h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 24px 0 16px;
+  }
+
+  /* LIST */
+  .support-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .support-list li {
+    position: relative;
+    padding-left: 28px;
+    margin-bottom: 14px;
+    font-size: 15px;
+    color: #3f4f53;
+  }
+  .law-text {
+    font-size: 18px;
+    margin-bottom: 12px;
+    font-weight: 600;
+  }
+
+  .support-list li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #c89b6d;
+    font-weight: bold;
+  }
+
+  .law-firm-box {
+    background: #faf7f2;
+    padding: 16px;
+    margin-top: 0;
+  }
+
+  .law-firm-box ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .imm-testimonial {
+    background: rgba(7, 44, 44, 0.05);
+    border-left: 4px solid rgba(212, 165, 116, 1);
+    margin: 20px auto 0 auto;
+    padding: 12px;
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: rgba(54, 65, 83, 1);
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  .imm-testimonial p {
+    margin: 0;
+    font-style: italic;
+    color: #2d3748;
+  }
+
+  .law-firm-box li {
+    position: relative;
+    padding-left: 24px;
+    margin-bottom: 12px;
+    font-size: 15px;
+  }
+
+  .law-firm-box li::before {
+    content: "➜";
+    position: absolute;
+    left: 0;
+    color: #c89b6d;
+  }
+}

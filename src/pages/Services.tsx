@@ -1,7 +1,9 @@
 import Footer from "../components/pages/Footer";
+import Immigration from "../components/pages/Immigration";
 import Navbar from "../components/pages/Navbar";
 import OtherHero from "../components/pages/OtherHero";
 import Practice from "../components/pages/Practice";
+import StartedSection from "../components/pages/StartedSection";
 
 const Services = () => {
   const heroData = {
@@ -27,6 +29,11 @@ const Services = () => {
       />
 
       <Practice />
+      <Immigration />
+      <StartedSection
+        title="Ready to Scale Your Practice?"
+        subtitle="Partner with LawAid to enhance your firm's capacity while maintaining complete control over legal strategy and client representation."
+      />
       <Footer />
     </>
   );
