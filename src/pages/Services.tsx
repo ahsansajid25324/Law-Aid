@@ -1,6 +1,7 @@
 import Footer from "../components/pages/Footer";
 import Navbar from "../components/pages/Navbar";
 import OtherHero from "../components/pages/OtherHero";
+import Practice from "../components/pages/Practice";
 
 const Services = () => {
   const heroData = {
@@ -25,6 +26,7 @@ const Services = () => {
         stats={heroData.stats}
       />
 
+      <Practice />
       <Footer />
     </>
   );

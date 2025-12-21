@@ -48,7 +48,7 @@
 .main-image {
   width: 100%;
   height: auto;
-  max-height: 480px;
+  max-height: 560px;
   border-radius: 8px;
 }
 
@@ -56,7 +56,7 @@
   position: absolute;
   background-color: rgba(212, 165, 116, 1);
   padding: 1.2rem;
-  bottom: -50px;
+  bottom: -20px;
   right: -15px;
   border-radius: 0;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
@@ -85,7 +85,7 @@
   }
 
   .execution-support-section {
-    padding: 32px 16px 100px 16px;
+    padding: 32px 16px 50px 16px;
   }
 
   .main-heading {
@@ -101,6 +101,9 @@
 
   .main-image {
     max-height: 600px;
+    min-height: 400px;
+    object-fit: cover;
+    width: 100%;
     border-radius: 6px;
   }
 

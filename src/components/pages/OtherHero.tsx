@@ -24,7 +24,7 @@ const OtherHero = ({ subtitle, title, description, stats }: OtherHeroProps) => (
         <h1 className="text-center">{title}</h1>
         <p className="text-center">{description}</p>
 
-        <div className="stats text-center">
+        <div className="stats text-center justify-content-center">
           {stats?.map((stat, index) => (
             <div key={index}>
               <span className="stat-number">{stat.number}</span>
