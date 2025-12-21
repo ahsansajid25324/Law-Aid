@@ -71,7 +71,7 @@ const AdvantageSection = () => {
         <div className="set-advantage">
           <div className="subtitle-with-line">
             <span className="subtitle-line"></span>
-            <span className="subtitle">WHY LAWAID</span>
+            <span className="subtitle subtitle-right">WHY LAWAID </span>
             <span className="subtitle-line"></span>
           </div>
           <h2 className="main-heading">The LawAid Advantage</h2>

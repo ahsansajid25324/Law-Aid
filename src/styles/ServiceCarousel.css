@@ -19,7 +19,7 @@
   min-height: 180px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   transition: all 0.3s ease;
 }
 
@@ -93,15 +93,25 @@
   background: transparent;
 }
 
-/* Testimonial */
+
+
 .sc-testimonial {
-  margin: 60px auto 0;
-  padding: 32px 12px;
   background: rgba(7, 44, 44, 0.05);
   border-left: 4px solid rgba(212, 165, 116, 1);
-  text-align: center;
+  margin: 40px auto 0 auto;
+  padding: 32px 24px;
   max-width: 900px;
   font-size: 1.3rem;
+  font-weight: 300;
+  color: rgba(54, 65, 83, 1);
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.sc-testimonial p {
+  margin: 0;
+  font-style: italic;
+  color: #2d3748;
 }
 
 /* Mobile */

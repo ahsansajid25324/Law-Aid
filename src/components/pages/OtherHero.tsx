@@ -18,7 +18,7 @@ const OtherHero = ({ subtitle, title, description, stats }: OtherHeroProps) => (
       <div className="container px-0  other-hero-section">
         <div className="subtitle-with-line">
           <span className="subtitle-line"></span>
-          <span className="subtitle">{subtitle}</span>
+          <span className="subtitle subtitle-right">{subtitle}</span>
           <span className="subtitle-line"></span>
         </div>
         <h1 className="text-center">{title}</h1>

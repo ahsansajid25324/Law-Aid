@@ -4,16 +4,16 @@ import OtherHero from "../components/pages/OtherHero";
 import ExecutionSection from "../components/pages/ExecutionSection";
 import Professional from "../components/pages/Professional";
 import Vendor from "../components/pages/Vendor";
-const Services = () => {
+const About = () => {
   const heroData = {
-    subtitle: "OUR SERVICES",
-    title: "Immigration Case Support Services",
+    subtitle: "ABOUT US",
+    title: "Precision. Discipline. Accountability.",
     description:
-      "Structured, scalable support designed exclusively for U.S. immigration attorneys and law firms—strengthening attorney-led representation through reliable execution.",
+      "LawAid exists to strengthen attorney-led representation through structured legal support, immigration-aligned business services, and reliable execution at scale.",
     stats: [
-      { number: "6", label: "Core Services" },
+      { number: "3+", label: "Years of Service" },
       { number: "25000+", label: "Cases Delivered" },
-      { number: "100%", label: "Attorney Controlled" },
+      { number: "50+", label: "Law Firms Partners" },
     ],
   };
 
@@ -34,4 +34,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default About;

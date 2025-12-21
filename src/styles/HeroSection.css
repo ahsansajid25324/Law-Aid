@@ -25,6 +25,9 @@
   background: rgba(238, 187, 111, 1);
 }
 
+.subtitle-right {
+  margin-right: 12px;
+}
 .subtitle-with-line {
   display: flex;
   align-items: center;
@@ -147,6 +150,14 @@
   .subtitle-with-line {
     display: flex;
     align-items: center;
+  }
+
+  .subtitle-right {
+    margin-right: 6px;
+  }
+
+  .subtitle-line {
+    margin-right: 6px;
   }
 
   .subtitle-line {

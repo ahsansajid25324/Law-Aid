@@ -52,7 +52,7 @@ const Vendor = () => {
         <div className="vendor-header">
           <div className="subtitle-with-line">
             <span className="subtitle-line"></span>
-            <span className="subtitle ">OUR APPROACH</span>
+            <span className="subtitle subtitle-right ">OUR APPROACH</span>
             <span className="subtitle-line"></span>
           </div>
 

@@ -1,22 +1,22 @@
 import "../../styles/StartedSection.css";
 import "../../styles/HeroSection.css";
-const StartedSection = () => {
+
+interface StartedSectionProps {
+  title: string;
+  subtitle: string;
+}
+const StartedSection = ({ title, subtitle }: StartedSectionProps) => {
   return (
     <section className="started-section">
       <div className="container px-0 started-content">
         <div className="set-started">
           <div className="subtitle-with-line">
             <span className="subtitle-line"></span>
-            <span className="subtitle">GET STARTED</span>
+            <span className="subtitle subtitle-right">GET STARTED</span>
             <span className="subtitle-line"></span>
           </div>{" "}
-          <h2 className="main-heading text-white">
-            Ready to Strengthen Your Firm's Capacity?
-          </h2>
-          <p className="started-description text-white ">
-            Partner with LawAid to support your immigration, business, and
-            humanitarian cases with precision, consistency, and scale.
-          </p>
+          <h2 className="main-heading text-white">{title}</h2>
+          <p className="started-description text-white ">{subtitle}</p>
         </div>
         <div className="hero-actions">
           <button className="primary-btn">Start a Law Firm Inquiry</button>

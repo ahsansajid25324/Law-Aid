@@ -3,36 +3,18 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 
 import "../../styles/ServiceCarousel.css";
-import { CheckCircle2, Shield, Users, TrendingUp } from "lucide-react";
 
-const serviceCarouselData = [
-  {
-    icon: <CheckCircle2 />,
-    title: "Hybrid Service Model",
-    description:
-      "Legal expertise, business acumen, and operational excellence unified in a single partnership",
-  },
-  {
-    icon: <Shield />,
-    title: "Compliance-Driven Workflows",
-    description:
-      "Every deliverable structured to meet USCIS adjudication and evidentiary standards",
-  },
-  {
-    icon: <Users />,
-    title: "Scalable Without Overhead",
-    description:
-      "Expand your firm's capacity without hiring, training, or infrastructure investment",
-  },
-  {
-    icon: <TrendingUp />,
-    title: "Immigration-Specific Expertise",
-    description:
-      "Deep knowledge of visa categories, regulatory updates, and case strategy",
-  },
-];
+type ServiceCarouselItem = {
+  icon: React.ReactNode;
+  title: string;
+  description: string;
+};
 
-// ✅ Mobile detector (SSR safe)
+type ServiceCarouselProps = {
+  data: ServiceCarouselItem[];
+  testimonial?: string;
+};
+
 function useIsMobile() {
   const [isMobile, setIsMobile] = React.useState(
     typeof window !== "undefined" ? window.innerWidth < 768 : false
@@ -47,7 +29,10 @@ function useIsMobile() {
   return isMobile;
 }
 
-const ServiceCarousel: React.FC = () => {
+const ServiceCarousel: React.FC<ServiceCarouselProps> = ({
+  data,
+  testimonial,
+}) => {
   const isMobile = useIsMobile();
 
   return (
@@ -64,13 +49,12 @@ const ServiceCarousel: React.FC = () => {
               type: "loop",
             }}
           >
-            {serviceCarouselData.map((item, index) => (
+            {data.map((item, index) => (
               <SplideSlide key={index}>
                 <div className="sc-card">
                   <div className="sc-card-header">
                     <div className="sc-card-icon">{item.icon}</div>
                   </div>
-
                   <div className="sc-card-content">
                     <h3 className="sc-card-title">{item.title}</h3>
                     <p className="sc-card-description">{item.description}</p>
@@ -81,12 +65,11 @@ const ServiceCarousel: React.FC = () => {
           </Splide>
         ) : (
           <div className="sc-grid">
-            {serviceCarouselData.map((item, index) => (
+            {data.map((item, index) => (
               <div key={index} className="sc-card">
                 <div className="sc-card-header">
                   <div className="sc-card-icon">{item.icon}</div>
                 </div>
-
                 <div className="sc-card-content">
                   <h3 className="sc-card-title">{item.title}</h3>
                   <p className="sc-card-description">{item.description}</p>
@@ -98,10 +81,7 @@ const ServiceCarousel: React.FC = () => {
 
         <div className="sc-testimonial">
           <p>
-            <em>
-              "All work is performed strictly within permitted support
-              functions, preserving attorney authority at every stage."
-            </em>
+            <em>{testimonial}</em>
           </p>
         </div>
       </div>
