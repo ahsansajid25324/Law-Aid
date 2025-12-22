@@ -56,7 +56,7 @@ const Navbar = () => {
       <div className={`mobile-navbar${scrolled ? " scrolled" : ""}`}>
         <nav className="container px-0 navbar">
           <div className="logo">
-            <img width={140} src={Logo} alt="LawAid Logo" />
+            <img width={120} src={Logo} alt="LawAid Logo" />
           </div>
 
           <GiHamburgerMenu
