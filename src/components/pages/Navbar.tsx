@@ -61,7 +61,6 @@ const Navbar = () => {
         </nav>
       </div>
 
-      {/* Mobile Navbar */}
       <div className={`mobile-navbar${scrolled ? " scrolled" : ""}`}>
         <nav className="container px-0 navbar">
           <div className="logo">
