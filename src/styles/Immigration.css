@@ -113,8 +113,6 @@
   width: 100%;
   border-radius: 12px;
   max-height: 440px;
-
-  /* display: block; */
 }
 
 .law-text {
@@ -139,6 +137,66 @@
   font-style: italic;
   color: #2d3748;
 }
+
+.custom-card-image {
+  position: relative;
+  border-radius: 18px;
+  max-height: 440px;
+  overflow: hidden;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.08);
+}
+
+.custom-card-image img {
+  width: 100%;
+  display: block;
+  height: 100%;
+  border-radius: 18px;
+}
+
+.custom-card-overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 20px 20px 16px 20px;
+  background: linear-gradient(
+    0deg,
+    rgba(20, 30, 40, 0.85) 70%,
+    rgba(20, 30, 40, 0) 100%
+  );
+  color: #fff;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+}
+
+.custom-badge {
+  display: inline-flex;
+  align-items: center;
+  background: #e2b47a;
+  color: rgba(7, 44, 44, 1);
+  border-radius: 16px;
+  padding: 8px 16px;
+  font-weight: 300;
+  font-size: 0.9rem;
+  gap: 4px;
+  margin-bottom: 8px;
+}
+
+.custom-badge-icon {
+  width: 22px;
+  height: 22px;
+  margin-right: 8px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.custom-card-subtitle {
+  font-size: 0.9rem;
+  margin-top: 0;
+  color: rgba(255, 255, 255, 0.9);
+  opacity: 0.75;
+}
+
 @media (max-width: 900px) {
   .imm-support-grid {
     grid-template-columns: 1fr;
@@ -159,6 +217,31 @@
     width: 100%;
     margin-top: 20px;
     object-fit: contain;
+    height: 320px;
+  }
+
+  .custom-card-overlay {
+    padding: 10px 20px 20px 16px;
+  }
+
+  .custom-card-image img {
+    width: 100%;
+    display: block;
+    height: 320px;
+    height: 100%;
+    border-radius: 18px;
+  }
+
+  .custom-badge {
+    font-size: 0.85rem;
+    border-radius: 16px;
+    padding: 8px 14px;
+  }
+  .custom-card-subtitle {
+    font-size: 0.8rem;
+    margin-top: 0;
+    color: rgba(255, 255, 255, 0.9);
+    opacity: 0.75;
   }
 
   .imm-support-content {

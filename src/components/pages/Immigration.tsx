@@ -64,10 +64,36 @@ const Immigration = () => {
               </ul>
             </div>
           </div>
-
           {/* RIGHT IMAGE */}
-          <div className="imm-support-image">
+          <div className="imm-support-image custom-card-image">
             <img src={im} alt="Immigration Case Support" />
+            <div className="custom-card-overlay">
+              <span className="custom-badge">
+                <span className="custom-badge-dot">
+                  <svg width="18" height="20" viewBox="0 0 14 14 " fill="none">
+                    <circle
+                      cx="6.5"
+                      cy="6.5"
+                      r="6"
+                      stroke="#1A3A36"
+                      strokeWidth="1"
+                    />
+                    <path
+                      d="M4 7L6 9L9 5"
+                      stroke="#1A3A36"
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                </span>{" "}
+                Attorney-Controlled
+              </span>
+              <div className="custom-card-subtitle">
+                Professional support while maintaining full attorney oversight
+                and control
+              </div>
+            </div>
           </div>
         </div>
       </div>
