@@ -74,14 +74,14 @@ const Immigration = () => {
 
       <div className="container px-0 imm-support-content">
         {/* MAIN CONTENT */}
-        <div className="imm-support-grid">
+        <div className="imm-reverse-grid">
           {/* LEFT CONTENT */}
 
           {/* RIGHT IMAGE */}
           <div className="imm-support-image mt-2 mt-md-0">
             <img src={im} alt="Immigration Case Support" />
           </div>
-          <div className="imm-support-text mt-4 mt-md-0">
+          <div className="imm-support-text mt-0 mt-md-0">
             <h3>Non-Immigrant Visa Case Support</h3>
 
             <p className="intro-text">
@@ -153,9 +153,8 @@ const Immigration = () => {
             <div className="imm-testimonial">
               <p>
                 <em>
-                  All plans are tailored to the specific visa category,
-                  business structure, and case strategy defined by the
-                  attorney.
+                  All plans are tailored to the specific visa category, business
+                  structure, and case strategy defined by the attorney.
                 </em>
               </p>
             </div>
@@ -168,14 +167,14 @@ const Immigration = () => {
 
       <div className="container px-0 imm-support-content">
         {/* MAIN CONTENT */}
-        <div className="imm-support-grid">
+        <div className="imm-reverse-grid">
           {/* LEFT CONTENT */}
 
           {/* RIGHT IMAGE */}
           <div className="imm-support-image mt-2 mt-md-0">
             <img src={im} alt="Immigration Case Support" />
           </div>
-          <div className="imm-support-text mt-4 mt-md-0">
+          <div className="imm-support-text mt-0 mt-md-0">
             <h3>Company Formation Support (All U.S. States)</h3>
 
             <p className="intro-text">
@@ -251,14 +250,14 @@ const Immigration = () => {
 
       <div className="container px-0 imm-support-content">
         {/* MAIN CONTENT */}
-        <div className="imm-support-grid">
+        <div className="imm-reverse-grid">
           {/* LEFT CONTENT */}
 
           {/* RIGHT IMAGE */}
           <div className="imm-support-image mt-2 mt-md-0">
             <img src={im} alt="Immigration Case Support" />
           </div>
-          <div className="imm-support-text mt-4 mt-md-0">
+          <div className="imm-support-text mt-0 mt-md-0">
             <h3>Humanitarian Relief Case Support</h3>
 
             <p className="intro-text">
