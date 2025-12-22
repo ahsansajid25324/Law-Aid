@@ -39,7 +39,7 @@ const Navbar = () => {
       <div className={`main-navbar${scrolled ? " scrolled" : ""}`}>
         <nav className="container px-0 py-3 navbar">
           <div className="logo">
-            <img src={Logo} alt="LawAid Logo" />
+            <img width={110} src={Logo} alt="LawAid Logo" />
           </div>
 
           <div className="d-flex gap-4 align-items-center">
@@ -65,7 +65,7 @@ const Navbar = () => {
       <div className={`mobile-navbar${scrolled ? " scrolled" : ""}`}>
         <nav className="container px-0 navbar">
           <div className="logo">
-            <img width={120} src={Logo} alt="LawAid Logo" />
+            <img width={100} src={Logo} alt="LawAid Logo" />
           </div>
 
           <GiHamburgerMenu
