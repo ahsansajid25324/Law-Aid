@@ -41,7 +41,7 @@ const Practice = () => {
           <img src={Support} alt="Law Firm" className="pro-image" />
 
           <div className="exec-stats-card">
-            <h3 className="exec-stats-number text-dark">25000+</h3>
+            <h3 className="exec-stats-number text-dark">2500+</h3>
             <p className="exec-stats-description">
               Cases delivered with precision and reliability{" "}
             </p>

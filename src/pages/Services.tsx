@@ -13,7 +13,7 @@ const Services = () => {
       "Structured, scalable support designed exclusively for U.S. immigration attorneys and law firms—strengthening attorney-led representation through reliable execution.",
     stats: [
       { number: "6", label: "Core Services" },
-      { number: "25000+", label: "Cases Delivered" },
+      { number: "2500+", label: "Cases Delivered" },
       { number: "100%", label: "Attorney-Controlled" },
     ],
   };

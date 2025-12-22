@@ -12,7 +12,7 @@ const About = () => {
       "LawAid exists to strengthen attorney-led representation through structured legal support, immigration-aligned business services, and reliable execution at scale.",
     stats: [
       { number: "3+", label: "Years of Service" },
-      { number: "25000+", label: "Cases Delivered" },
+      { number: "2500+", label: "Cases Delivered" },
       { number: "50+", label: "Law Firms Partners" },
     ],
   };

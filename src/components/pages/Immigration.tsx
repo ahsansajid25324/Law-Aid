@@ -153,9 +153,9 @@ const Immigration = () => {
             <div className="imm-testimonial">
               <p>
                 <em>
-                  "All plans are tailored to the specific visa category,
+                  All plans are tailored to the specific visa category,
                   business structure, and case strategy defined by the
-                  attorney."
+                  attorney.
                 </em>
               </p>
             </div>
@@ -195,9 +195,9 @@ const Immigration = () => {
             <div className="imm-testimonial">
               <p>
                 <em>
-                  "Our support ensures that entity formation decisions remain
+                  Our support ensures that entity formation decisions remain
                   aligned with immigration case strategy and regulatory
-                  requirements."
+                  requirements.
                 </em>
               </p>
             </div>
@@ -236,9 +236,9 @@ const Immigration = () => {
             <div className="imm-testimonial">
               <p>
                 <em>
-                  "This service reduces risk for both attorneys and clients by
+                  This service reduces risk for both attorneys and clients by
                   ensuring business decisions support visa eligibility and
-                  long-term compliance."
+                  long-term compliance.
                 </em>
               </p>
             </div>
@@ -279,8 +279,8 @@ const Immigration = () => {
             <div className="imm-testimonial">
               <p>
                 <em>
-                  "All humanitarian case support is handled with heightened
-                  sensitivity, confidentiality, and procedural care."
+                  All humanitarian case support is handled with heightened
+                  sensitivity, confidentiality, and procedural care.
                 </em>
               </p>
             </div>
