@@ -90,9 +90,9 @@ const PracticeAreas: React.FC = () => {
         <div className="testimonial-box">
           <p>
             <em>
-              "Each engagement is structured to align with the firm's practice
+              Each engagement is structured to align with the firm's practice
               focus, <span className="italic">internal processes</span>,
-              timelines, and risk profile."
+              timelines, and risk profile.
             </em>
           </p>
         </div>

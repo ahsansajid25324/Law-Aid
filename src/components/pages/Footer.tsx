@@ -28,13 +28,35 @@ const Footer = () => {
         {/* Column 2 */}
         <div className="footer-col give-margin">
           <h3>Services</h3>
-          <ul>
-            <li>Immigration Case Support</li>
-            <li>Business Plan Creation</li>
-            <li>Company Formation</li>
-            <li>Business Acquisition</li>
-            <li>Humanitarian Relief</li>
-            <li>Legal Operations</li>
+          <ul className="cursor-pointer">
+            <li>
+              <Link to="/services">Immigration Support</Link>
+            </li>
+            <ul className="cursor-pointer">
+              <li>
+                <Link to="/services">Business Support</Link>
+              </li>
+            </ul>
+            <ul className="cursor-pointer">
+              <li>
+                <Link to="/services">Company Formation</Link>
+              </li>
+            </ul>
+            <ul className="cursor-pointer">
+              <li>
+                <Link to="/services">Business Acquisition</Link>
+              </li>
+            </ul>
+            <ul className="cursor-pointer">
+              <li>
+                <Link to="/services">Humanitarian Relief</Link>
+              </li>
+            </ul>
+            <ul className="cursor-pointer">
+              <li>
+                <Link to="/services">Legal Operations</Link>
+              </li>
+            </ul>
           </ul>
         </div>
 
