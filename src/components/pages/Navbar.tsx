@@ -25,6 +25,13 @@ const Navbar = () => {
     { name: "Contact", path: "/contact" },
   ];
 
+  const handleNavClick = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   const location = useLocation();
   return (
     <>
@@ -42,7 +49,9 @@ const Navbar = () => {
                   key={link.name}
                   className={location.pathname === link.path ? "active" : ""}
                 >
-                  <Link to={link.path}>{link.name}</Link>
+                  <Link to={link.path} onClick={handleNavClick}>
+                    {link.name}
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -89,7 +98,10 @@ const Navbar = () => {
             <li
               key={link.name}
               className={location.pathname === link.path ? "active" : ""}
-              onClick={() => setOpenDrawer(false)}
+              onClick={() => {
+                handleNavClick();
+                setOpenDrawer(false);
+              }}
             >
               <Link to={link.path}>{link.name}</Link>
             </li>
