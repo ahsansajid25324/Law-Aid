@@ -3,7 +3,7 @@ import "../../styles/Navbar.css";
 import Logo from "../../assets/LogoW.png";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoClose } from "react-icons/io5";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -33,6 +33,7 @@ const Navbar = () => {
   };
 
   const location = useLocation();
+  const navigate = useNavigate();
   return (
     <>
       {/* Desktop Navbar */}
@@ -64,7 +65,7 @@ const Navbar = () => {
       <div className={`mobile-navbar${scrolled ? " scrolled" : ""}`}>
         <nav className="container px-0 navbar">
           <div className="logo">
-            <img width={100} src={Logo} alt="LawAid Logo" />
+            <img width={80} src={Logo} alt="LawAid Logo" />
           </div>
 
           <GiHamburgerMenu
@@ -100,6 +101,7 @@ const Navbar = () => {
               onClick={() => {
                 handleNavClick();
                 setOpenDrawer(false);
+                navigate(link.path);
               }}
             >
               <Link to={link.path}>{link.name}</Link>
