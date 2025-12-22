@@ -1,6 +1,6 @@
 import "../../styles/Immigration.css";
 import "../../styles/HeroSection.css";
-import im from "../../assets/Support2.png";
+import im from "../../assets/Service1.png";
 const Immigration = () => {
   return (
     <section className="imm-support-section">
