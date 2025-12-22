@@ -1,11 +1,13 @@
 import "../../styles/StartedSection.css";
 import "../../styles/HeroSection.css";
+import { useNavigate } from "react-router-dom";
 
 interface StartedSectionProps {
   title: string;
   subtitle: string;
 }
 const StartedSection = ({ title, subtitle }: StartedSectionProps) => {
+  const navigate = useNavigate();
   return (
     <section className="started-section">
       <div className="container px-0 started-content">
@@ -20,7 +22,12 @@ const StartedSection = ({ title, subtitle }: StartedSectionProps) => {
         </div>
         <div className="hero-actions">
           <button className="primary-btn">Start a Law Firm Inquiry</button>
-          <button className="secondary-btn">Explore Our Services</button>
+          <button
+            className="secondary-btn"
+            onClick={() => navigate("/services")}
+          >
+            Explore Our Services
+          </button>
         </div>
       </div>
     </section>
