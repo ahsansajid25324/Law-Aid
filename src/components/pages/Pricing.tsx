@@ -54,6 +54,7 @@ const Pricing = () => {
                 <td>
                   EI/E2 – CASE PREP+BUSINESS PLAN+COMPANY FORMATION
                   (INITIAL/COS/EXTENSION)
+                  <br></br>
                   <div className="badge">Complete Solution</div>
                 </td>
                 <td>$3,000</td>
@@ -66,6 +67,7 @@ const Pricing = () => {
                 <td>
                   L1 – CASE PREP+BUSINESS PLAN+COMPANY FORMATION
                   (INITIAL/COS/EXTENSION)
+                  <br></br>
                   <div className="badge">Complete Solution</div>
                 </td>
                 <td>$3,000</td>
