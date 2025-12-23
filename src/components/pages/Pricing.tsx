@@ -124,6 +124,24 @@ const Pricing = () => {
               </tr>
             </tbody>
           </table>
+
+          <div className="important-pricing-note">
+            <div className="icon-and-content">
+              <img className="note-icon" src={Stop} alt="Important Note"></img>
+              <div>
+                <span className="note-title">Important Pricing Note</span>
+                <p className="note-bold">
+                  For all non-immigrant cases, we will not charge any extra
+                  service charges for cases with dependents.
+                </p>
+                <p>
+                  For example: If an E2 Change of Status has 1 principal and 3
+                  dependents, our paralegal service will still cost $2,000.00
+                  for that case.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
         <div className="custom-pricing-card">
           <h4 className="card-title">CUSTOM PRICING</h4>
@@ -152,7 +170,7 @@ const Pricing = () => {
         </div>
       </div>
 
-      <div className="important-pricing-note">
+      {/* <div className="important-pricing-note">
         <div className="icon-and-content">
           <img className="note-icon" src={Stop} alt="Important Note"></img>
           <div>
@@ -168,7 +186,7 @@ const Pricing = () => {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };

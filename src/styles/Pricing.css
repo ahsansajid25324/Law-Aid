@@ -204,7 +204,7 @@
 
 .custom-pricing-card {
   flex: 1;
-  width: 100%fd;
+  width: 100%;
 
   background: linear-gradient(180deg, #072c2c 0%, #0a3d3d 100%);
   color: #fff;
@@ -289,7 +289,7 @@
   }
 
   .custom-pricing-card {
-    margin-top: 24px;
+    margin-top: 0;
     width: 100%;
   }
   .custom-pricing-card {
