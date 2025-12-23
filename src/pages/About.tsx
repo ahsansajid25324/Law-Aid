@@ -9,11 +9,11 @@ const About = () => {
     subtitle: "ABOUT US",
     title: "Precision. Discipline. Accountability.",
     description:
-      "LawAid exists to strengthen attorney-led representation through structured legal support, immigration-aligned business services, and reliable execution at scale.",
+      "LawAid Management exists to strengthen attorney-led representation through structured legal support, immigration-aligned business services, and reliable execution at scale.",
     stats: [
       { number: "3+", label: "Years of Service" },
       { number: "2500+", label: "Cases Delivered" },
-      { number: "50+", label: "Law Firms Partners" },
+      { number: "20+", label: "Law Firms Partners" },
     ],
   };
 

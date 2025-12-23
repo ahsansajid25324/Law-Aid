@@ -40,11 +40,11 @@ const Pricing = () => {
             <tbody>
               <tr>
                 <td>BI/B2 (INITIAL FILING/COS/EXTENSION)</td>
-                <td>$500</td>
+                <td>$200</td>
               </tr>
               <tr>
                 <td>F1 (INITIAL FILING/COS/EXTENSION)</td>
-                <td>$500</td>
+                <td>$200</td>
               </tr>
               <tr>
                 <td>EI/E2 – CASE PREPARATION ONLY (INITIAL/COS/EXTENSION)</td>
@@ -110,11 +110,11 @@ const Pricing = () => {
               </tr>
               <tr>
                 <td>DS260</td>
-                <td>$1,000</td>
+                <td>$700</td>
               </tr>
               <tr>
                 <td>N400</td>
-                <td>$1,000</td>
+                <td>$700</td>
               </tr>
               <tr>
                 <td>ETA 9141</td>

@@ -18,7 +18,7 @@ const ExecutionSupportSection = () => {
           </h2>
 
           <p className="description">
-            LawAid is a U.S.-based legal and business consultancy formed over
+            LawAid is a U.S - based Paralegal services consultancy formed over
             three years ago to address a critical gap in the legal services
             ecosystem: the disconnect between legal strategy and reliable
             execution.

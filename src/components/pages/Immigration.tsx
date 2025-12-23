@@ -342,7 +342,6 @@ const Immigration = () => {
               <li>
                 Documentation coordination for acquisitions or new ventures
               </li>
-              <li>Transition and post-acquisition readiness support</li>
             </ul>
 
             <div className="imm-testimonial">
