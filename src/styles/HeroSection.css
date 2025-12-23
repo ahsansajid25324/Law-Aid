@@ -110,6 +110,12 @@
   margin-top: 30px;
 }
 
+.other-stats {
+  display: flex;
+  gap: 60px;
+  margin-top: 0;
+}
+
 .stat-number {
   font-size: 2rem;
   font-weight: 500;
@@ -211,6 +217,13 @@
     gap: 24px;
     flex-wrap: wrap;
     margin-top: 16px;
+  }
+
+  .other-stats {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    margin-top: 0;
   }
 
   .stat-number {

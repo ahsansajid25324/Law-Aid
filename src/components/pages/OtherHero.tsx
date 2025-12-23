@@ -16,15 +16,18 @@ const OtherHero = ({ subtitle, title, description, stats }: OtherHeroProps) => (
   <>
     <div className="other-landing-container">
       <div className="container px-0  other-hero-section">
-        <div className="subtitle-with-line">
-          <span className="subtitle-line"></span>
-          <span className="subtitle subtitle-right">{subtitle}</span>
-          <span className="subtitle-line"></span>
+        <div className="subtitle-with-line flex-column ">
+          <div className="d-flex align-items-center">
+            {" "}
+            <span className="subtitle-line"></span>
+            <span className="subtitle subtitle-right">{subtitle}</span>
+            <span className="subtitle-line"></span>
+          </div>
+          <h1 className="text-center">{title}</h1>
+          <p className="text-center">{description}</p>
         </div>
-        <h1 className="text-center">{title}</h1>
-        <p className="text-center">{description}</p>
 
-        <div className="stats text-center justify-content-center">
+        <div className="other-stats text-center justify-content-center">
           {stats?.map((stat, index) => (
             <div key={index}>
               <span className="stat-number">{stat.number}</span>
