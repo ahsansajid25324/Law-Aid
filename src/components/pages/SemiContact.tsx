@@ -5,20 +5,19 @@ const SemiContact = () => {
     {
       icon: <Mail />,
       title: "Email",
-      description: "contact@lawaid.com",
-      quote: "inquiries@lawaid.com",
+      description: "filling@law-aid.org",
     },
     {
       icon: <Phone />,
       title: "Phone",
-      description: "+1 (555) 123-4567",
+      description: "+1 (889) 512 2168",
       quote: "Monday - Friday, 9AM - 6PM EST",
     },
     {
       icon: <MapPin />,
       title: "Location",
       description: "United States",
-      quote: "Serving law firms nationwide",
+      quote: "2600 S Gessner Road, Houston, TX, 77063",
     },
   ];
 

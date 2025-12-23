@@ -23,10 +23,10 @@ const practiceAreasData = [
       "Firms managing high-volume caseloads with complex procedural requirements",
   },
   {
-    title: "Business Immigration Specialists",
+    title: "Immigration Specialists",
     number: "04",
     description:
-      "Practices representing investors, entrepreneurs, and corporate clients",
+      "Firms handling complex or high volume cases",
   },
 ];
 
@@ -92,7 +92,7 @@ const PracticeAreas: React.FC = () => {
             <em>
               Each engagement is structured to align with the firm's practice
               focus, <span className="italic">internal processes</span>,
-              timelines, and risk profile.
+              timelines
             </em>
           </p>
         </div>

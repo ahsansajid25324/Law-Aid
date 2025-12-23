@@ -15,9 +15,9 @@ const LegalSection = () => {
             Exclusively Serving the Legal Profession{" "}
           </h2>
           <p className="legal-description">
-            LawAid exclusively serves attorneys and law firms across the United
-            States. Each engagement is structured to align with your practice
-            focus, internal processes, timelines, and risk profile.
+            LawAid management exclusively serves attorneys and law firms across
+            the United States. Each engagement is structured to align with your
+            practice focus, internal processes, timelines, and risk profile.
           </p>
         </div>
       </div>

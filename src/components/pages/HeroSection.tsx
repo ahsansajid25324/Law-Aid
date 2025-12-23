@@ -9,17 +9,13 @@ const HeroSection = () => {
         <div className="container px-0  hero-section">
           <div className="d-flex align-items-center">
             <span className="subtitle-line"></span>
-            <span className="subtitle">U.S. LEGAL & BUSINESS CONSULTANCY</span>
+            <span className="subtitle">
+              HELPING ATTORNEYS GROW THEIR BUSINESS ACROSS THE GLOBE
+            </span>
           </div>
-          <h1>
-            Legal Precision.
-            <br />
-            Business Strategy.
-            <br />
-            Reliable Execution.
-          </h1>
+          <h1>Efficient Workflows.</h1>
           <p>
-            LawAid partners with attorneys and law firms across the United
+            LawAid Management partners with attorneys and law firms across the United
             States, delivering structured immigration, business, and
             humanitarian case support services with unwavering precision.
           </p>
@@ -34,7 +30,7 @@ const HeroSection = () => {
           </div>
           <div className="stats">
             <div>
-              <span className="stat-number">150+</span>
+              <span className="stat-number">20+</span>
               <span className="stat-label">Law Firms Served</span>
             </div>
             <div>
@@ -42,7 +38,7 @@ const HeroSection = () => {
               <span className="stat-label">Success Rate</span>
             </div>
             <div>
-              <span className="stat-number">15+</span>
+              <span className="stat-number">3+</span>
               <span className="stat-label">Years Experience</span>
             </div>
           </div>

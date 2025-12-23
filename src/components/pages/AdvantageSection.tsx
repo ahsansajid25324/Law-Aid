@@ -74,7 +74,7 @@ const AdvantageSection = () => {
             <span className="subtitle subtitle-right">WHY LAWAID </span>
             <span className="subtitle-line"></span>
           </div>
-          <h2 className="main-heading">The LawAid Advantage</h2>
+          <h2 className="main-heading">The LawAid Management Advantage</h2>
           <p className="advantage-description">
             Law firms partner with LawAid because we deliver reliable execution
             without operational burden
@@ -124,7 +124,7 @@ const AdvantageSection = () => {
           <img src={WorkflowsImage} alt="Law Firm Workflows" />
         </div>
         <div className="workflows-content">
-          <h2>Built Specifically for Law Firm Workflows</h2>
+          <h2>Built Specifically for Immigration Attorneys</h2>
           <p>
             Our services integrate seamlessly into attorney-led practices,
             enhancing capacity, consistency, and efficiency without compromising

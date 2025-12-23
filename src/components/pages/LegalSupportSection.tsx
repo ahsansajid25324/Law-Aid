@@ -18,18 +18,18 @@ const LegalSupportSection = () => {
             Structured Legal Support.Built for Law Firms.
           </h2>
           <p className="description">
-            LawAid operates at the intersection of law, business, and legal
-            operations. We support attorneys and law firms by delivering
+            LawAid management operates at the intersection of law, business, and
+            legal operations. We support attorneys and law firms by delivering
             structured case preparation, immigration-aligned business
             documentation, and dependable execution across complex legal
             matters.
           </p>
           <p className="description">
-            Unlike traditional vendors or staffing solutions, LawAid is built
-            specifically for law firm workflows. Our services integrate
-            seamlessly into attorney-led practices—enhancing capacity,
-            consistency, and efficiency without compromising legal authority,
-            confidentiality, or compliance.
+            Unlike traditional staffing solutions or paralegal services, LawAid
+            management is built specifically for law firm workflows. Our
+            services integrate seamlessly into attorney-led practices—enhancing
+            capacity, consistency, and efficiency without compromising legal
+            authority, confidentiality, or compliance.
           </p>
           <div className="features-list">
             <div className="feature-item">

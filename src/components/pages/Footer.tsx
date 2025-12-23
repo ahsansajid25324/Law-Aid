@@ -11,8 +11,7 @@ const Footer = () => {
         <div className="footer-col footer-about">
           <img src={Logo} alt="LawAid Management Logo" />
           <p>
-            U.S.-based legal and business consultancy partnering with attorneys
-            and law firms nationwide.
+            U.S.-based Paralegal services
           </p>
 
           <div className="footer-social">
