@@ -7,7 +7,7 @@ const ExecutionSupportSection = () => {
     <section className="execution-support-section">
       <div className="container px-0 execution-support-content">
         <div className="execution-support-left">
-          <div className="subtitle-with-line">
+          <div className="d-flex align-items-center">
             <span className="subtitle-line"></span>
             <span className="subtitle">ABOUT LAWAID</span>
           </div>
