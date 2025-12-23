@@ -54,9 +54,18 @@
   }
 }
 
+.pricing-layout {
+  display: flex;
+  gap: 2rem;
+  width: 90%;
+  margin-top: 2rem;
+  align-items: flex-start;
+}
+
 .pricing-table-wrapper {
   overflow-x: auto;
-  margin-top: 2rem;
+  flex: 2;
+  width: 100%;
 }
 .pricing-table {
   width: 100%;
@@ -190,5 +199,120 @@
     color: #e6c7a1;
     font-weight: bold;
     margin-top: 4px;
+  }
+}
+
+.custom-pricing-card {
+  flex: 1;
+  width: 100%fd;
+
+  background: linear-gradient(180deg, #072c2c 0%, #0a3d3d 100%);
+  color: #fff;
+  padding: 1.5rem;
+  border-radius: 0;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+
+  .card-title {
+    letter-spacing: 2px;
+    font-size: 1.1rem;
+    color: rgba(212, 165, 116, 1);
+    margin-bottom: 16px;
+    font-weight: 400;
+  }
+
+  .card-icon {
+    width: 48px;
+    height: 48px;
+    background: rgba(212, 165, 116, 0.2);
+    color: rgba(212, 165, 116, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-size: 1.4rem;
+  }
+
+  .card-desc {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    opacity: 0.8;
+    margin-bottom: 16px;
+  }
+
+  .card-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 24px;
+  }
+
+  .card-list li {
+    margin-bottom: 10px;
+    opacity: 0.8;
+
+    font-size: 0.9rem;
+    position: relative;
+    padding-left: 24px;
+  }
+
+  .card-list li::before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    color: rgba(212, 165, 116, 1);
+  }
+
+  .card-btn {
+    width: 100%;
+    background: rgba(212, 165, 116, 1);
+    border: none;
+    padding: 12px;
+    font-size: 0.95rem;
+    font-weight: 300;
+    cursor: pointer;
+    margin-bottom: 12px;
+  }
+
+  .card-footnote {
+    font-size: 0.85rem;
+    opacity: 0.8;
+    display: block;
+    text-align: center;
+  }
+}
+
+@media (max-width: 900px) {
+  .pricing-layout {
+    flex-direction: column;
+    width: 100%;
+    gap: 0;
+  }
+
+  .custom-pricing-card {
+    margin-top: 24px;
+    width: 100%;
+  }
+  .custom-pricing-card {
+    flex: 1;
+
+    background: linear-gradient(180deg, #072c2c 0%, #0a3d3d 100%);
+    color: #fff;
+    padding: 1.25rem;
+    border-radius: 0;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+
+    .card-title {
+      letter-spacing: 2px;
+      font-size: 1.1rem;
+      color: rgba(212, 165, 116, 1);
+      margin-bottom: 16px;
+      font-weight: 400;
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 900px) {
+  .pricing-table td {
+    max-width: 200px;
   }
 }
