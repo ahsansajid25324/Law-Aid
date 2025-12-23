@@ -33,9 +33,7 @@ const SemiContact = () => {
               <p className="semicontact-card-description">
                 {advantage.description}
               </p>
-              <p className="semicontact-card-quote">
-                {advantage.quote}
-              </p>
+              <p className="semicontact-card-quote">{advantage.quote}</p>
             </div>
           ))}
         </div>

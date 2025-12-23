@@ -31,6 +31,7 @@
 .subtitle-with-line {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .subtitle-line {

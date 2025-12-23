@@ -7,7 +7,7 @@ const HeroSection = () => {
     <>
       <div className="landing-container">
         <div className="container px-0  hero-section">
-          <div className="subtitle-with-line">
+          <div className="d-flex align-items-center">
             <span className="subtitle-line"></span>
             <span className="subtitle">U.S. LEGAL & BUSINESS CONSULTANCY</span>
           </div>

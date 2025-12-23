@@ -99,7 +99,7 @@ const EndSection = () => {
     <section className="end-section">
       <div className="container px-0 end-content">
         <div className="set-margin">
-          <div className="subtitle-with-line">
+          <div className="d-flex align-items-center">
             <span className="subtitle-line"></span>
             <span className="subtitle">CORE SERVICES</span>
           </div>{" "}

@@ -7,7 +7,7 @@ const LegalSection = () => {
     <section className="legal-section">
       <div className="container px-0 legal-content">
         <div>
-          <div className="subtitle-with-line">
+          <div className="d-flex align-items-center">
             <span className="subtitle-line"></span>
             <span className="subtitle">WHAT WE SERVE</span>
           </div>{" "}

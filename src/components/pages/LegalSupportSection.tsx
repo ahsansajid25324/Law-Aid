@@ -10,7 +10,7 @@ const LegalSupportSection = () => {
     <section className="legal-support-section">
       <div className="container px-0 legal-support-content">
         <div className="legal-support-left">
-          <div className="subtitle-with-line">
+          <div className="d-flex align-items-center">
             <span className="subtitle-line"></span>
             <span className="subtitle">WHO WE ARE</span>
           </div>{" "}

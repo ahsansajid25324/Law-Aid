@@ -33,6 +33,13 @@
 }
 
 .semicontact-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.semicontact-card {
   background-color: transparent;
   padding: 0;
   text-align: left;
