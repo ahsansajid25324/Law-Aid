@@ -10,7 +10,7 @@ const SemiContact = () => {
     {
       icon: <Phone />,
       title: "Phone",
-      description: "+1 (889) 512 2168",
+      description: "+1 (888) 512 2168",
       quote: "Monday - Friday, 9AM - 6PM EST",
     },
     {
