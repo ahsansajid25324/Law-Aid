@@ -9,20 +9,19 @@ const semicontact = [
   {
     icon: <Mail />,
     title: "Email",
-    description: "support@lawaid.com",
-    quote: "We respond within 24 hours",
+    description: "filling@law-aid.org",
   },
   {
     icon: <Phone />,
     title: "Phone",
-    description: "11 22 33 44 77",
-    quote: "Business Hours: Mon-Fri, 9AM-6PM EST",
+    description: "+1 (888) 512 2168",
+    quote: "Monday - Friday, 9AM - 6PM EST",
   },
   {
     icon: <MapPin />,
-    title: "Service Coverage",
+    title: "Location",
     description: "United States",
-    quote: "(Nationwide Attorney Support)",
+    quote: "2600 S Gessner Road, Houston, TX, 77063",
   },
 ];
 
