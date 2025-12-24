@@ -21,6 +21,8 @@ const SemiContact = () => {
     },
   ];
 
+
+  // fd
   return (
     <section className="semicontact-section">
       <div className="container px-0 semicontact-content">
