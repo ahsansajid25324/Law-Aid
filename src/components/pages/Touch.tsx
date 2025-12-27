@@ -25,6 +25,7 @@ const semicontact = [
   },
 ];
 
+// fd
 const Touch = () => {
   return (
     <section className="touch-section">
