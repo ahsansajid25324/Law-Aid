@@ -71,12 +71,12 @@ const AdvantageSection = () => {
         <div className="set-advantage">
           <div className="subtitle-with-line">
             <span className="subtitle-line"></span>
-            <span className="subtitle subtitle-right">WHY LAWAID </span>
+            <span className="subtitle subtitle-right">WHY LAWAID MANAGEMENT </span>
             <span className="subtitle-line"></span>
           </div>
           <h2 className="main-heading">The LawAid Management Advantage</h2>
           <p className="advantage-description">
-            Law firms partner with LawAid because we deliver reliable execution
+            Law firms partner with LawAid management because we deliver reliable execution
             without operational burden
           </p>
         </div>

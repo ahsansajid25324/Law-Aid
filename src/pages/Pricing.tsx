@@ -26,7 +26,7 @@ const Pricing = () => {
       <Cost />
 
       <StartedSection
-        title="Ready to Partner with LawAid?"
+        title="Ready to Partner with LawAid Management?"
         subtitle="Start with transparent pricing and scalable support designed specifically for immigration law firms."
       />
       <Footer />

@@ -18,7 +18,7 @@ const Home = () => {
       <AdvantageSection />
       <StartedSection
         title="Ready to Strengthen Your Firm's Capacity?"
-        subtitle="Partner with LawAid to support your immigration, business, and
+        subtitle="Partner with LawAid management to support your immigration, business, and
             humanitarian cases with precision, consistency, and scale."
       />
       <SemiContact />

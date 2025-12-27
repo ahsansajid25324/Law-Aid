@@ -43,7 +43,7 @@ const Professional = () => {
             Professional Extension of Your Firm
           </h2>
           <p className="pro-description text-center">
-            LawAid provides legal support services, business advisory, and
+            LawAid management provides legal support services, business advisory, and
             operational execution designed specifically for law firm workflows.
             We do not replace legal counsel. Instead, we operate as a
             professional extension of the firm—supporting attorneys by

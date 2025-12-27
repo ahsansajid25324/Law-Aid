@@ -32,7 +32,7 @@ const Services = () => {
       <Immigration />
       <StartedSection
         title="Ready to Scale Your Practice?"
-        subtitle="Partner with LawAid to enhance your firm's capacity while maintaining complete control over legal strategy and client representation."
+        subtitle="Partner with LawAid management to enhance your firm's capacity while maintaining complete control over legal strategy and client representation."
       />
       <Footer />
     </>

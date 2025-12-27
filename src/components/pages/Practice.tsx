@@ -17,7 +17,7 @@ const Practice = () => {
           </h2>
 
           <p className="description">
-            LawAid provides structured, scalable immigration case support
+            LawAid management provides structured, scalable immigration case support
             services designed exclusively for U.S. immigration attorneys and law
             firms. Our role is to strengthen attorney-led representation by
             handling documentation-intensive and process-driven components of

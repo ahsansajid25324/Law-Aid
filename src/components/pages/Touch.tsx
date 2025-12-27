@@ -9,7 +9,7 @@ const semicontact = [
   {
     icon: <Mail />,
     title: "Email",
-    description: "filling@law-aid.org",
+    description: "filing@law-aid.org",
   },
   {
     icon: <Phone />,

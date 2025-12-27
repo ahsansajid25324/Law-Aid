@@ -6,9 +6,9 @@ import Connect from "../components/pages/Connect";
 const Contact = () => {
   const heroData = {
     subtitle: "GET IN TOUCH",
-    title: "Contact LawAid",
+    title: "Contact LawAid Management",
     description:
-      "LawAid partners exclusively with U.S. immigration attorneys and law firms to provide structured, reliable legal and operational support services. If your firm is seeking scalable capacity, consistent execution, or specialized case support, our team is ready to assist.",
+      "LawAid management partners exclusively with U.S. immigration attorneys and law firms to provide structured, reliable legal and operational support services. If your firm is seeking scalable capacity, consistent execution, or specialized case support, our team is ready to assist.",
   };
 
   return (

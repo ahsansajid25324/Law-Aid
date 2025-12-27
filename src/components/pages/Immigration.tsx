@@ -30,7 +30,7 @@ const Immigration = () => {
             <h3>Immigrant Visa Case Support</h3>
 
             <p className="intro-text">
-              LawAid supports all major employment-based immigrant visa
+              LawAid management supports all major employment-based immigrant visa
               categories, including EB-1, EB-2, EB-2 NIW, EB-3, EB-4, and EB-5.
             </p>
 
@@ -144,7 +144,7 @@ const Immigration = () => {
             <h3>Non-Immigrant Visa Case Support</h3>
 
             <p className="intro-text">
-              LawAid provides comprehensive support across all major
+              LawAid management provides comprehensive support across all major
               non-immigrant visa categories, including B, F, H, L, E, O, P, R,
               TN, and J visas.
             </p>
@@ -193,7 +193,7 @@ const Immigration = () => {
             <h3>Business Plan Creation (Immigration-Focused)</h3>
 
             <p className="intro-text">
-              LawAid develops immigration-compliant and adjudication-ready
+              LawAid management develops immigration-compliant and adjudication-ready
               business plans used in support of E-2, L-1, EB-5, and other
               employment-based filings.
             </p>
@@ -291,7 +291,7 @@ const Immigration = () => {
             <h3>Company Formation Support (All U.S. States)</h3>
 
             <p className="intro-text">
-              LawAid assists law firms in supporting their clients with U.S.
+              LawAid management assists law firms in supporting their clients with U.S.
               entity formation across all states.
             </p>
 
@@ -328,7 +328,7 @@ const Immigration = () => {
             <h3>Business Identification & Acquisition Support (E-2 / L-1)</h3>
 
             <p className="intro-text">
-              LawAid provides specialized operational support for law firms
+              LawAid management provides specialized operational support for law firms
               representing E-2 Treaty Investors and L-1 Intra-Company Transfer
               clients.
             </p>
@@ -427,7 +427,7 @@ const Immigration = () => {
             <h3>Humanitarian Relief Case Support</h3>
 
             <p className="intro-text">
-              LawAid supports law firms handling humanitarian relief matters,
+              LawAid management supports law firms handling humanitarian relief matters,
               including asylum, VAWA, U visas, T visas, TPS, CAT, and related
               protections.
             </p>

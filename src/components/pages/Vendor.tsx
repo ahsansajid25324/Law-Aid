@@ -61,7 +61,7 @@ const Vendor = () => {
           </h2>
 
           <p className="vendor-description">
-            LawAid operates as a long-term partner, not a transactional vendor.
+            LawAid management operates as a long-term partner, not a transactional vendor.
             Every engagement is guided by core principles that ensure reliable
             execution, reduced burden, and measurable operational value.
           </p>

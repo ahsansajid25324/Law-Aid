@@ -9,7 +9,7 @@ const ExecutionSupportSection = () => {
         <div className="execution-support-left">
           <div className="d-flex align-items-center">
             <span className="subtitle-line"></span>
-            <span className="subtitle">ABOUT LAWAID</span>
+            <span className="subtitle">ABOUT LAWAID MANAGEMENT</span>
           </div>
 
           <h2 className="main-heading">
@@ -18,7 +18,7 @@ const ExecutionSupportSection = () => {
           </h2>
 
           <p className="description">
-            LawAid is a U.S - based Paralegal services consultancy formed over
+            LawAid management is a U.S - based Paralegal services consultancy formed over
             three years ago to address a critical gap in the legal services
             ecosystem: the disconnect between legal strategy and reliable
             execution.
@@ -27,7 +27,7 @@ const ExecutionSupportSection = () => {
           <p className="description">
             We work extensively across the United States, partnering exclusively
             with attorneys and law firms to support immigration, business, and
-            humanitarian legal matters. LawAid was built to strengthen
+            humanitarian legal matters. LawAid management was built to strengthen
             attorney-led representation by providing structured case support,
             immigration-aligned business services, and operational consistency
             at scale.

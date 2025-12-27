@@ -37,7 +37,7 @@ const Cost = () => {
           <div className="subtitle-with-line  justify-content-center">
             <span className="subtitle-line"></span>
             <span className="subtitle subtitle-right text-center">
-              WHY CHOOSE LAWAID
+              WHY CHOOSE LAWAID MANAGEMENT
             </span>
             <span className="subtitle-line"></span>
           </div>{" "}
