@@ -13,10 +13,10 @@ const HeroSection = () => {
               HELPING ATTORNEYS GROW THEIR BUSINESS ACROSS THE GLOBE
             </span>
           </div>
-          <h1>Efficient Workflows.</h1>
+          <h1>Legal Precision. Efficient Workflows. Reliable Execution.</h1>
           <p>
-            LawAid Management partners with attorneys and law firms across the United
-            States, delivering structured immigration, business, and
+            LawAid Management partners with attorneys and law firms across the
+            United States, delivering structured immigration, business, and
             humanitarian case support services with unwavering precision.
           </p>
           <div className="hero-actions">
