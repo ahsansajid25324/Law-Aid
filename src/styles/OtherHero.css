@@ -1,6 +1,6 @@
 .other-landing-container {
-  background: url("../assets/otherBg.png") center/cover no-repeat;
-  background-color: rgba(7, 44, 44, 1);
+  /* background: url("../assets/AboutBackground.png") center/cover no-repeat; */
+  /* background-color: rgba(7, 44, 44, 1); */
   height: 100vh;
   display: flex;
   align-items: center;

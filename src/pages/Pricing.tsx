@@ -4,7 +4,7 @@ import Navbar from "../components/pages/Navbar";
 import OtherHero from "../components/pages/OtherHero";
 import PricingSet from "../components/pages/Pricing";
 import StartedSection from "../components/pages/StartedSection";
-
+import PricingBg from "../assets/PricingBg.png";
 const Pricing = () => {
   const heroData = {
     subtitle: "PARALEGAL PRICING",
@@ -19,6 +19,7 @@ const Pricing = () => {
       <OtherHero
         subtitle={heroData.subtitle}
         title={heroData.title}
+        backgroundImage={PricingBg}
         description={heroData.description}
       />
 

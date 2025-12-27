@@ -4,6 +4,7 @@ import OtherHero from "../components/pages/OtherHero";
 import ExecutionSection from "../components/pages/ExecutionSection";
 import Professional from "../components/pages/Professional";
 import Vendor from "../components/pages/Vendor";
+import AboutBackground from "../assets/AboutBackground.png";
 const About = () => {
   const heroData = {
     subtitle: "ABOUT US",
@@ -23,6 +24,7 @@ const About = () => {
       <OtherHero
         subtitle={heroData.subtitle}
         title={heroData.title}
+        backgroundImage={AboutBackground}
         description={heroData.description}
         stats={heroData.stats}
       />

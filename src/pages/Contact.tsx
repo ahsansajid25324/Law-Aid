@@ -3,6 +3,7 @@ import Navbar from "../components/pages/Navbar";
 import OtherHero from "../components/pages/OtherHero";
 import Touch from "../components/pages/Touch";
 import Connect from "../components/pages/Connect";
+import ContactImage from "../assets/ContactBg.png";
 const Contact = () => {
   const heroData = {
     subtitle: "GET IN TOUCH",
@@ -17,6 +18,7 @@ const Contact = () => {
       <OtherHero
         subtitle={heroData.subtitle}
         title={heroData.title}
+        backgroundImage={ContactImage}
         description={heroData.description}
       />
 

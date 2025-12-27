@@ -9,12 +9,26 @@ interface OtherHeroProps {
   subtitle: string;
   title: string;
   description: string;
+  backgroundImage: string;
+
   stats?: Stat[];
 }
 
-const OtherHero = ({ subtitle, title, description, stats }: OtherHeroProps) => (
+const OtherHero = ({
+  subtitle,
+  title,
+  description,
+  backgroundImage,
+  stats,
+}: OtherHeroProps) => (
   <>
-    <div className="other-landing-container">
+    <div
+      className="other-landing-container"
+      style={{
+        background: `url(${backgroundImage}) center/cover no-repeat`,
+          backgroundColor: "rgba(7, 44, 44, 1)",
+      }}
+    >
       <div className="container px-0  other-hero-section">
         <div className="subtitle-with-line flex-column ">
           <div className="d-flex align-items-center">

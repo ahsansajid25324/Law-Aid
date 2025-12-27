@@ -4,7 +4,7 @@ import Navbar from "../components/pages/Navbar";
 import OtherHero from "../components/pages/OtherHero";
 import Practice from "../components/pages/Practice";
 import StartedSection from "../components/pages/StartedSection";
-
+import ServiceBg from "../assets/ServiceBg.png";
 const Services = () => {
   const heroData = {
     subtitle: "OUR SERVICES",
@@ -24,6 +24,7 @@ const Services = () => {
       <OtherHero
         subtitle={heroData.subtitle}
         title={heroData.title}
+        backgroundImage={ServiceBg}
         description={heroData.description}
         stats={heroData.stats}
       />
