@@ -26,7 +26,7 @@ const OtherHero = ({
       className="other-landing-container"
       style={{
         background: `url(${backgroundImage}) center/cover no-repeat`,
-          backgroundColor: "rgba(7, 44, 44, 1)",
+        backgroundColor: "rgba(10, 61, 61, 1)",
       }}
     >
       <div className="container px-0  other-hero-section">
