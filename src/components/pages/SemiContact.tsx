@@ -5,7 +5,7 @@ const SemiContact = () => {
     {
       icon: <Mail />,
       title: "Email",
-      description: "filing@law-aid.org",
+      description: "Info@law-aid.org",
     },
     {
       icon: <Phone />,
