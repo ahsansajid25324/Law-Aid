@@ -33,6 +33,7 @@
   font-weight: 300;
   max-width: 700px;
 }
+
 @media (max-width: 900px) {
   .pricing-content {
     display: flex;
@@ -57,6 +58,7 @@
 .pricing-layout {
   display: flex;
   gap: 2rem;
+  max-width: 1200px;
   width: 90%;
   margin-top: 2rem;
   align-items: flex-start;
@@ -156,6 +158,7 @@
   border-left: 5px solid #e6c7a1;
   padding: 20px;
   margin: 32px 0;
+  justify-self: center;
   max-width: 950px;
   border-radius: 4px;
 }
@@ -205,7 +208,10 @@
 
 .custom-pricing-card {
   flex: 1;
+  position: relative; /* IMPORTANT */
+  padding-top: 3rem;
   width: 100%;
+  justify-items: center;
 
   background: linear-gradient(180deg, #072c2c 0%, #0a3d3d 100%);
   color: #fff;
@@ -215,25 +221,19 @@
 
   .card-title {
     letter-spacing: 2px;
-    font-size: 1.1rem;
-    color: rgba(212, 165, 116, 1);
-    margin-bottom: 16px;
+    font-size: 2rem;
+    margin-top: 12px;
+    color: #fff;
+    margin-bottom: 8px;
+    font-weight: 500;
+  }
+
+  .card-subtitle {
+    margin-bottom: 8px;
+    font-size: 2rem;
     font-weight: 400;
+    color: rgba(255, 255, 255, 1);
   }
-
-  .card-icon {
-    width: 48px;
-    height: 48px;
-    background: rgba(212, 165, 116, 0.2);
-    color: rgba(212, 165, 116, 1);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 4px;
-    margin-bottom: 16px;
-    font-size: 1.4rem;
-  }
-
   .card-desc {
     font-size: 0.95rem;
     line-height: 1.6;
@@ -243,24 +243,32 @@
 
   .card-list {
     list-style: none;
+    margin-top: 8px;
     padding: 0;
-    margin-bottom: 24px;
+    margin-right: auto;
+    margin-bottom: 0;
   }
 
   .card-list li {
-    margin-bottom: 10px;
-    opacity: 0.8;
+    margin-bottom: 12px;
 
+    color: #ffff;
     font-size: 0.9rem;
     position: relative;
-    padding-left: 24px;
+    padding-left: 26px;
   }
 
   .card-list li::before {
-    content: "→";
+    content: "";
     position: absolute;
     left: 0;
-    color: rgba(212, 165, 116, 1);
+    top: 50%;
+    transform: translateY(-50%);
+    width: 18px;
+    height: 18px;
+    background-image: url("../assets/Dtick.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
   }
 
   .card-btn {
@@ -273,6 +281,88 @@
     cursor: pointer;
     margin-bottom: 12px;
   }
+}
+
+.general-pricing-card {
+  flex: 1;
+  position: relative; /* IMPORTANT */
+  padding-top: 3rem;
+  width: 100%;
+  justify-items: center;
+
+  border: 1.5px solid rgba(229, 231, 235, 1);
+  background: rgba(255, 255, 255, 1);
+  box-shadow: inset;
+
+  color: #fff;
+  padding: 1.5rem;
+  border-radius: 0;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+
+  .card-title {
+    letter-spacing: 2px;
+    font-size: 2rem;
+    margin-top: 12px;
+    color: #000;
+    margin-bottom: 8px;
+    font-weight: 500;
+  }
+
+  .card-subtitle {
+    margin-bottom: 8px;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #000;
+  }
+  .card-desc {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    opacity: 0.8;
+    color: grey;
+    margin-bottom: 16px;
+  }
+
+  .card-list {
+    list-style: none;
+    margin-top: 8px;
+    padding: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+
+  .card-list li {
+    margin-bottom: 12px;
+
+    color: #000;
+    font-size: 0.9rem;
+    position: relative;
+    padding-left: 26px;
+  }
+
+  .card-list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 18px;
+    height: 18px;
+    background-image: url("../assets/BlackTick.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .card-btn {
+    width: 100%;
+    background: rgba(7, 44, 44, 1);
+    border: none;
+    padding: 12px;
+    font-size: 0.95rem;
+    font-weight: 300;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 12px;
+  }
 
   .card-footnote {
     font-size: 0.85rem;
@@ -282,6 +372,24 @@
   }
 }
 
+.card-badge {
+  position: absolute;
+  top: -14px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  background: #d4a574;
+  color: #1f2937;
+
+  padding: 6px 12px;
+  font-size: 0.9rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  border-radius: 2px;
+  z-index: 2;
+}
 @media (max-width: 900px) {
   .pricing-layout {
     flex-direction: column;
@@ -295,7 +403,7 @@
   }
   .custom-pricing-card {
     flex: 1;
-
+    margin-top: 12px;
     background: linear-gradient(180deg, #072c2c 0%, #0a3d3d 100%);
     color: #fff;
     padding: 1.25rem;
@@ -304,10 +412,79 @@
 
     .card-title {
       letter-spacing: 2px;
-      font-size: 1.1rem;
-      color: rgba(212, 165, 116, 1);
-      margin-bottom: 16px;
+      font-size: 1.5rem;
+      color: #fff;
+      text-align: center;
+      margin-bottom: 4px;
       font-weight: 400;
+      margin-top: 12px;
+    }
+    .card-subtitle {
+      margin-bottom: 4px;
+      font-size: 1.8rem;
+      font-weight: 400;
+      color: rgba(255, 255, 255, 1);
+    }
+
+    .card-badge {
+      position: absolute;
+      top: -12px;
+
+      left: 50%;
+      transform: translateX(-50%);
+
+      background: #d4a574;
+      color: #1f2937;
+
+      padding: 6px 12px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+
+      border-radius: 2px;
+      z-index: 2;
+    }
+  }
+
+  .general-pricing-card {
+    flex: 1;
+    padding: 1.25rem;
+    border-radius: 0;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+
+    .card-title {
+      letter-spacing: 2px;
+      font-size: 1.5rem;
+      text-align: center;
+      margin-bottom: 4px;
+      font-weight: 400;
+      margin-top: 4px;
+    }
+    .card-subtitle {
+      margin-bottom: 4px;
+      font-size: 1.8rem;
+      font-weight: 400;
+    }
+
+    .card-badge {
+      position: absolute;
+      top: -12px;
+
+      left: 50%;
+      transform: translateX(-50%);
+
+      background: #d4a574;
+      color: #1f2937;
+
+      padding: 6px 12px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+
+      border-radius: 2px;
+      z-index: 2;
     }
   }
 }

@@ -1,7 +1,6 @@
 import "../../styles/Pricing.css";
 import "../../styles/HeroSection.css";
 import Stop from "../../assets/Stop.svg";
-import Price from "../../assets/PriceTick.svg";
 
 const Pricing = () => {
   return (
@@ -11,19 +10,56 @@ const Pricing = () => {
           <div className="subtitle-with-line  justify-content-center">
             <span className="subtitle-line"></span>
             <span className="subtitle subtitle-right text-center">
-              PARALEGAL SERVICES
+              CHOOSE YOUR PLAN
             </span>
             <span className="subtitle-line"></span>
           </div>{" "}
           <h2 className="main-heading  text-center">
-            Tentative Paralegal Services Pricing{" "}
+            Choose a Paid Subscription That's Built for Your Law Firm{" "}
           </h2>
           <p className="pricing-description text-center">
-            Our pricing is designed to provide law firms with clear, predictable
-            costs for immigration case support services. All prices are per case
-            and include comprehensive support within attorney-directed
-            workflows.
+            Select the plan that fits your firm's needs. All plans include
+            comprehensive paralegal support and can be customized for your
+            practice.
           </p>
+        </div>
+      </div>
+      <div className="pricing-layout d-flex gap-3">
+        <div className="general-pricing-card">
+          <h4 className="card-title">GENERAL PRICING</h4>
+          <h3 className="card-subtitle">Starting at $500 </h3>
+
+          <p className="card-desc">per case</p>
+          <button className="card-btn">Get Started</button>
+          <ul className="card-list">
+            <li>Standardized per-case pricing</li>
+            <li>
+              All visa types covered (B1/B2, F1, H1B, O1, E1/E2, L1, etc.)
+            </li>
+            <li>No additional charges for dependents</li>
+            <li>Business plan & company formation options</li>
+            <li>Email & phone support</li>
+            <li>Standard processing time</li>
+            <li>Document review included</li>
+          </ul>
+        </div>
+        <div className="custom-pricing-card">
+          <div className="card-badge">FLEXIBLE SOLUTION</div>
+
+          <h4 className="card-title">CUSTOM PRICING</h4>
+          <h3 className="card-subtitle">Custom </h3>
+
+          <p className="card-desc">tailored to your needs</p>
+          <button className="card-btn">Contact Sales</button>
+          <ul className="card-list">
+            <li>Volume-based discounts for high-volume firms</li>
+            <li>Retainer arrangements available</li>
+            <li>Custom service packages tailored to your practice</li>
+            <li>Flexible payment terms</li>
+            <li>Dedicated account manager</li>
+            <li>Priority processing & rush options</li>
+            <li>All General Pricing features included</li>
+          </ul>
         </div>
       </div>
       <div className="pricing-layout">
@@ -145,50 +181,7 @@ const Pricing = () => {
             </div>
           </div>
         </div>
-        <div className="custom-pricing-card">
-          <h4 className="card-title">CUSTOM PRICING</h4>
-
-          <div className="card-icon">
-            <img src={Price}></img>
-          </div>
-
-          <p className="card-desc">
-            For high-volume firms or unique case requirements, we offer tailored
-            pricing solutions.
-          </p>
-
-          <ul className="card-list">
-            <li>Volume-based discounts</li>
-            <li>Retainer arrangements</li>
-            <li>Custom service packages</li>
-            <li>Flexible payment terms</li>
-          </ul>
-
-          <button className="card-btn">Get Custom Quote</button>
-
-          <span className="card-footnote">
-            Our team will respond within 24 hours
-          </span>
-        </div>
       </div>
-
-      {/* <div className="important-pricing-note">
-        <div className="icon-and-content">
-          <img className="note-icon" src={Stop} alt="Important Note"></img>
-          <div>
-            <span className="note-title">Important Pricing Note</span>
-            <p className="note-bold">
-              For all non-immigrant cases, we will not charge any extra service
-              charges for cases with dependents.
-            </p>
-            <p>
-              For example: If an E2 Change of Status has 1 principal and 3
-              dependents, our paralegal service will still cost $2,000.00 for
-              that case.
-            </p>
-          </div>
-        </div>
-      </div> */}
     </section>
   );
 };

@@ -8,7 +8,7 @@ import PricingBg from "../assets/PricingBg.png";
 const Pricing = () => {
   const heroData = {
     subtitle: "PARALEGAL PRICING",
-    title: "Transparent & Predictable Pricing",
+    title: "Transparent, Predictable Pricing",
     description:
       "Our pricing is designed to provide law firms with clear, predictable costs for immigration case support services. All prices are per case and include comprehensive support within attorney-directed workflows.",
   };
