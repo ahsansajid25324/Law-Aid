@@ -20,7 +20,14 @@ const HeroSection = () => {
             humanitarian case support services with unwavering precision.
           </p>
           <div className="hero-actions">
-            <button className="primary-btn">Start a Law Firm Inquiry</button>
+            <button
+              className="primary-btn"
+              onClick={() => {
+                window.open("https://zfrmz.com/tmeXpeb2zZy1P8Dj9gTb", "_blank");
+              }}
+            >
+              Start a Law Firm Inquiry
+            </button>
             <button
               className="secondary-btn"
               onClick={() => navigate("/services")}

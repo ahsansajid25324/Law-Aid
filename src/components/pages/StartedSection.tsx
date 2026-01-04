@@ -21,7 +21,14 @@ const StartedSection = ({ title, subtitle }: StartedSectionProps) => {
           <p className="started-description text-white ">{subtitle}</p>
         </div>
         <div className="hero-actions">
-          <button className="primary-btn">Start a Law Firm Inquiry</button>
+          <button
+            onClick={() => {
+              window.open("https://zfrmz.com/tmeXpeb2zZy1P8Dj9gTb", "_blank");
+            }}
+            className="primary-btn"
+          >
+            Start a Law Firm Inquiry
+          </button>
           <button
             className="secondary-btn"
             onClick={() => navigate("/services")}

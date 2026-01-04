@@ -57,7 +57,14 @@ const Navbar = () => {
               ))}
             </ul>
 
-            <button className="consult-btn">Begin Consultation</button>
+            <button
+              className="consult-btn"
+              onClick={() => {
+                window.open("https://zfrmz.com/tmeXpeb2zZy1P8Dj9gTb", "_blank");
+              }}
+            >
+              Begin Consultation
+            </button>
           </div>
         </nav>
       </div>
@@ -109,7 +116,14 @@ const Navbar = () => {
           ))}
         </ul>
 
-        <button className="drawer-btn">Begin Consultation</button>
+        <button
+          onClick={() => {
+            window.open("https://zfrmz.com/tmeXpeb2zZy1P8Dj9gTb", "_blank");
+          }}
+          className="drawer-btn"
+        >
+          Begin Consultation
+        </button>
       </div>
     </>
   );

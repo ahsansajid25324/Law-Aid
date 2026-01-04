@@ -33,7 +33,12 @@ const Connect = () => {
           </div>
           <hr className="connect-divider" />
           <div className="connect-action">
-            <button className="connect-btn">
+            <button
+              className="connect-btn"
+              onClick={() => {
+                window.open("https://zfrmz.com/tmeXpeb2zZy1P8Dj9gTb", "_blank");
+              }}
+            >
               Start a Partnership Inquiry{" "}
             </button>
           </div>
