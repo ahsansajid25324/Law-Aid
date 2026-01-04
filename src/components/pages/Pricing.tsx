@@ -27,10 +27,14 @@ const Pricing = () => {
       </div>
       <div className="pricing-layout d-flex gap-3">
         <div className="general-pricing-card">
-          <h4 className="card-title">GENERAL PRICING</h4>
-          <h3 className="card-subtitle">Starting at $500 </h3>
+          <h4 className="card-title text-center m-auto mt-3">
+            GENERAL PRICING
+          </h4>
+          <h3 className="card-subtitle m-auto text-center mb-2">
+            Starting at $500{" "}
+          </h3>
 
-          <p className="card-desc">per case</p>
+          <p className="card-desc m-auto text-center mb-3">per case</p>
           <button className="card-btn">Get Started</button>
           <ul className="card-list">
             <li>Standardized per-case pricing</li>
@@ -47,10 +51,12 @@ const Pricing = () => {
         <div className="custom-pricing-card">
           <div className="card-badge">FLEXIBLE SOLUTION</div>
 
-          <h4 className="card-title">CUSTOM PRICING</h4>
-          <h3 className="card-subtitle">Custom </h3>
+          <h4 className="card-title m-auto text-center mt-3">CUSTOM PRICING</h4>
+          <h3 className="card-subtitle m-auto text-center mb-2">Custom </h3>
 
-          <p className="card-desc">tailored to your needs</p>
+          <p className="card-desc m-auto text-center mb-3">
+            tailored to your needs
+          </p>
           <button className="card-btn">Contact Sales</button>
           <ul className="card-list">
             <li>Volume-based discounts for high-volume firms</li>
@@ -271,7 +277,7 @@ const Pricing = () => {
             </tbody>
           </table>
 
-          <div className="important-pricing-note">
+          <div className="important-pricing-note mt-4">
             <div className="icon-and-content">
               <img className="note-icon" src={Stop} alt="Important Note"></img>
               <div>

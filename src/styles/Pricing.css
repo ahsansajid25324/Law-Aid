@@ -106,7 +106,6 @@
   border: 1.5px solid rgba(229, 231, 235, 1);
 }
 
-
 .pricing-table th:nth-child(2),
 .pricing-table th:nth-child(3),
 .pricing-set-table th:nth-child(2),
@@ -157,7 +156,7 @@
   font-size: 1rem;
 }
 @media (max-width: 768px) {
-  .pricing-table{
+  .pricing-table {
     margin-top: 1rem;
   }
   .pricing-table th,
@@ -203,9 +202,10 @@
   background: #faf7ef;
   border-left: 5px solid #e6c7a1;
   padding: 20px;
-  margin: 32px 0;
-  justify-self: center;
-  max-width: 950px;
+  /* margin-top: 2rem; */
+  justify-items: center;
+  /* max-width: 950px; */
+  margin: auto;
   border-radius: 4px;
 }
 
@@ -497,6 +497,7 @@
   .general-pricing-card {
     flex: 1;
     padding: 1.25rem;
+
     border-radius: 0;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
 
