@@ -1,7 +1,7 @@
 import "../../styles/Pricing.css";
 import "../../styles/HeroSection.css";
 import Stop from "../../assets/Stop.svg";
-import Blacktick from "../../assets/Blacktick.svg";
+import Blacktick from "../../assets/BlackTick.svg";
 import Line from "../../assets/Line.svg";
 const Pricing = () => {
   return (
