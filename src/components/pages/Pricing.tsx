@@ -2,7 +2,7 @@ import "../../styles/Pricing.css";
 import "../../styles/HeroSection.css";
 import Stop from "../../assets/Stop.svg";
 import Blacktick from "../../assets/BlackTick.svg";
-import Line from "../../assets/Line.svg";
+import Line from "../../assets/line.svg";
 const Pricing = () => {
   return (
     <section className="pricing-section">
