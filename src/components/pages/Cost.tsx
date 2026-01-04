@@ -34,9 +34,10 @@ const Cost = () => {
     <section className="cost-section">
       <div className="container px-0 cost-content">
         <div>
-          <div className="subtitle-with-line  justify-content-center">
+          <div className="subtitle-with-line">
             <span className="subtitle-line"></span>
-            <span className="subtitle subtitle-right text-center">
+            <span className="subtitle subtitle-right">
+              {" "}
               WHY CHOOSE LAWAID MANAGEMENT
             </span>
             <span className="subtitle-line"></span>
