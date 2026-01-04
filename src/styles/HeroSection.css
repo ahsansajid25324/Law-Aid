@@ -33,8 +33,6 @@
   align-items: center;
   justify-content: center;
 
-  width: fit-content;
-  margin: auto;
   text-align: center;
 }
 
@@ -161,8 +159,7 @@
 
   .subtitle-with-line {
     display: flex;
-    width: min-content;
-    margin: auto;
+
     align-items: center;
   }
 
