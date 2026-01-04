@@ -97,6 +97,49 @@
 .pricing-table .highlight {
   background: #f8f5f2;
 }
+
+.pricing-set-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  font-size: 1rem;
+  border: 1.5px solid rgba(229, 231, 235, 1);
+}
+
+
+.pricing-table th:nth-child(2),
+.pricing-table th:nth-child(3),
+.pricing-set-table th:nth-child(2),
+.pricing-set-table th:nth-child(3) {
+  text-align: center;
+}
+.pricing-table td:nth-child(2),
+.pricing-table td:nth-child(3),
+.pricing-set-table td:nth-child(2),
+.pricing-set-table td:nth-child(3) {
+  text-align: center;
+}
+
+.pricing-set-table th,
+.pricing-set-table td {
+  padding: 1rem;
+  color: rgba(54, 65, 83, 1);
+  font-weight: 300;
+
+  font-size: 1rem;
+  border-bottom: 1px solid #e0e0e0;
+  text-align: left;
+}
+
+.pricing-set-table td {
+  max-width: 800px;
+}
+.pricing-set-table th {
+  background: rgba(7, 44, 44, 1);
+  color: #fff;
+  font-weight: 200;
+}
+
 .pricing-table .badge {
   display: inline-block;
   margin-top: 0.5rem;
@@ -114,6 +157,9 @@
   font-size: 1rem;
 }
 @media (max-width: 768px) {
+  .pricing-table{
+    margin-top: 1rem;
+  }
   .pricing-table th,
   .pricing-table td {
     padding: 0.5rem;
@@ -196,7 +242,7 @@
     padding: 16px;
     max-width: 950px;
     border-radius: 4px;
-    margin:28px 0 0 0
+    margin: 28px 0 0 0;
   }
   .note-icon {
     font-size: 28px;

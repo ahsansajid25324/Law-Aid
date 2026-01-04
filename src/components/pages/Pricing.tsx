@@ -1,7 +1,8 @@
 import "../../styles/Pricing.css";
 import "../../styles/HeroSection.css";
 import Stop from "../../assets/Stop.svg";
-
+import Blacktick from "../../assets/Blacktick.svg";
+import Line from "../../assets/Line.svg";
 const Pricing = () => {
   return (
     <section className="pricing-section">
@@ -13,9 +14,9 @@ const Pricing = () => {
               CHOOSE YOUR PLAN
             </span>
             <span className="subtitle-line"></span>
-          </div>{" "}
+          </div>
           <h2 className="main-heading  text-center">
-            Choose a Paid Subscription That's Built for Your Law Firm{" "}
+            Choose a Paid Subscription That's Built for Your Law Firm
           </h2>
           <p className="pricing-description text-center">
             Select the plan that fits your firm's needs. All plans include
@@ -62,7 +63,114 @@ const Pricing = () => {
           </ul>
         </div>
       </div>
-      <div className="pricing-layout">
+      <div className="pricing-layout d-flex flex-column">
+        <div className="pricing-table-wrapper">
+          <table className="pricing-set-table">
+            <thead>
+              <tr>
+                <th>
+                  <span>Services Included</span>
+                </th>
+                <th>General Pricing</th>
+                <th style={{ color: "rgba(212, 165, 116, 1)" }}>Custom</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Standardized Per-Case Pricing</td>
+                <td>
+                  <img src={Blacktick} alt="Stop Icon" />
+                </td>
+                <td>
+                  <img src={Line} alt="Stop Icon" />
+                </td>
+              </tr>
+              <tr>
+                <td>Volume-Based Discounts</td>
+                <td>
+                  <img src={Line} alt="Stop Icon" />
+                </td>
+                <td>
+                  <img src={Blacktick} alt="Stop Icon" />
+                </td>
+              </tr>
+              <tr>
+                <td>Retainer Arrangements</td>
+                <td>
+                  <img src={Line} alt="Stop Icon" />
+                </td>
+                <td>
+                  <img src={Blacktick} alt="Stop Icon" />
+                </td>
+              </tr>
+              <tr>
+                <td>Flexible Payment Terms</td>
+                <td>
+                  <img src={Line} alt="Stop Icon" />
+                </td>
+                <td>
+                  <img src={Blacktick} alt="Stop Icon" />
+                </td>
+              </tr>
+
+              <tr>
+                <td>No Additional Charges for Dependents</td>
+                <td>
+                  <img src={Blacktick} alt="Stop Icon" />
+                </td>
+                <td>
+                  <img src={Blacktick} alt="Stop Icon" />
+                </td>
+              </tr>
+              <tr>
+                <td>Email Support</td>
+                <td>
+                  <img src={Blacktick} alt="Stop Icon" />
+                </td>
+                <td>
+                  <img src={Blacktick} alt="Stop Icon" />
+                </td>
+              </tr>
+              <tr>
+                <td>Phone Support</td>
+                <td>
+                  <img src={Blacktick} alt="Stop Icon" />
+                </td>
+                <td>
+                  <img src={Blacktick} alt="Stop Icon" />
+                </td>
+              </tr>
+              <tr>
+                <td>Dedicated Account Manager</td>
+                <td>
+                  <img src={Line} alt="Stop Icon" />
+                </td>
+                <td>
+                  <img src={Blacktick} alt="Stop Icon" />
+                </td>
+              </tr>
+              <tr>
+                <td>Standard Processing Time</td>
+                <td>
+                  <img src={Blacktick} alt="Stop Icon" />
+                </td>
+                <td>
+                  <img src={Line} alt="Stop Icon" />
+                </td>
+              </tr>
+              <tr>
+                <td>Priority Processing & Rush Options</td>
+                <td>
+                  <img src={Line} alt="Stop Icon" />
+                </td>
+                <td>
+                  <img src={Blacktick} alt="Stop Icon" />
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
         <div className="pricing-table-wrapper">
           <table className="pricing-table">
             <thead>
