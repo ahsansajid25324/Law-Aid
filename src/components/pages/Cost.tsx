@@ -34,13 +34,13 @@ const Cost = () => {
     <section className="cost-section">
       <div className="container px-0 cost-content">
         <div>
-          <div className="subtitle-with-line">
-            <span className="subtitle-line"></span>
-            <span className="subtitle subtitle-right">
+          <div className="cost-with-line">
+            <span className="cost-line"></span>
+            <span className="cost cost-right">
               {" "}
               WHY CHOOSE LAWAID MANAGEMENT
             </span>
-            <span className="subtitle-line"></span>
+            <span className="cost-line"></span>
           </div>{" "}
           <h2 className="main-heading  text-center">
             Predictable Costs, Measurable Value

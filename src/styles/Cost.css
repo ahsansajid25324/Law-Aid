@@ -33,6 +33,35 @@
   font-weight: 300;
   max-width: 700px;
 }
+
+.cost-right {
+  margin-right: 12px;
+}
+.cost-with-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+}
+
+.cost-line {
+  display: inline-block;
+  height: 2px;
+  width: 42px;
+  background: rgba(212, 165, 116, 1);
+  margin-right: 12px;
+  border-radius: 2px;
+}
+
+.cost {
+  color: #c9a96a;
+  font-size: 0.8rem;
+  letter-spacing: 4px;
+  font-weight: 500;
+  text-transform: uppercase;
+  opacity: 0.95;
+}
 @media (max-width: 900px) {
   .cost-content {
     display: flex;
@@ -51,5 +80,35 @@
   }
   .cost-description {
     margin-bottom: 1rem;
+  }
+
+  .cost-with-line {
+    display: flex;
+    width: min-content;
+    margin: auto;
+
+    align-items: center;
+  }
+
+  .cost-right {
+    margin-right: 6px;
+  }
+
+  .cost-line {
+    margin-right: 6px;
+  }
+
+  .cost-line {
+    height: 2px;
+    width: 26px;
+  }
+
+  .cost {
+    color: #c9a96a;
+    font-size: 0.75rem;
+    letter-spacing: 4px;
+    font-weight: 500;
+    text-transform: uppercase;
+    opacity: 0.95;
   }
 }
