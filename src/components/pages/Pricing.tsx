@@ -3,7 +3,11 @@ import "../../styles/HeroSection.css";
 import Stop from "../../assets/Stop.svg";
 import Blacktick from "../../assets/BlackTick.svg";
 import Line from "../../assets/line.svg";
+import { useState } from "react";
 const Pricing = () => {
+  const [showModal, setShowModal] = useState(false);
+  const [iframeLoading, setIframeLoading] = useState(true);
+
   return (
     <section className="pricing-section">
       <div className="container px-0 pricing-content">
@@ -35,7 +39,16 @@ const Pricing = () => {
           </h3>
 
           <p className="card-desc m-auto text-center mb-3">per case</p>
-          <button className="card-btn">Get Started</button>
+          <button
+            className="card-btn"
+            onClick={() => {
+              setIframeLoading(true);
+              setShowModal(true);
+            }}
+          >
+            Get Started
+          </button>
+
           <ul className="card-list">
             <li>Standardized per-case pricing</li>
             <li>
@@ -48,6 +61,88 @@ const Pricing = () => {
             <li>Document review included</li>
           </ul>
         </div>
+
+        {showModal && (
+          <div
+            style={{
+              position: "fixed",
+              top: 0,
+              left: 0,
+              width: "100vw",
+
+              height: "100vh",
+              borderRadius: "12px",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              zIndex: 1000,
+            }}
+            onClick={() => setShowModal(false)}
+          >
+            <div
+              style={{
+                background: "#fff",
+                padding: 0,
+                borderRadius: 8,
+
+                maxWidth: "90vw",
+                maxHeight: "90vh",
+                boxShadow: "0 2px 8px rgba(0,0,0,0.3)",
+                position: "relative",
+              }}
+              onClick={(e) => e.stopPropagation()}
+            >
+              <button
+                style={{
+                  position: "absolute",
+                  top: 0,
+                  right: 8,
+                  background: "transparent",
+                  border: "none",
+                  fontSize: 24,
+                  cursor: "pointer",
+                  zIndex: 2,
+                }}
+                onClick={() => setShowModal(false)}
+                aria-label="Close"
+              >
+                &times;
+              </button>
+
+              {/* Spinner */}
+              {iframeLoading && (
+                <div
+                  style={{
+                    position: "absolute",
+                    inset: 0,
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    background: "#fff",
+                    zIndex: 1,
+                  }}
+                >
+                  <div className="spinner"></div>
+                </div>
+              )}
+
+              <iframe
+                src="https://zfrmz.com/tmeXpeb2zZy1P8Dj9gTb"
+                title="garted Form"
+                width="600"
+                height="600"
+                style={{
+                  border: "none",
+                  maxWidth: "80vw",
+                  maxHeight: "80vh",
+                  visibility: iframeLoading ? "hidden" : "visible",
+                }}
+                onLoad={() => setIframeLoading(false)}
+              />
+            </div>
+          </div>
+        )}
+
         <div className="custom-pricing-card">
           <div className="card-badge">FLEXIBLE SOLUTION</div>
 
@@ -57,7 +152,15 @@ const Pricing = () => {
           <p className="card-desc m-auto text-center mb-3">
             tailored to your needs
           </p>
-          <button className="card-btn">Contact Sales</button>
+          <button
+            className="card-btn"
+            onClick={() => {
+              setIframeLoading(true);
+              setShowModal(true);
+            }}
+          >
+            Contact Sales
+          </button>
           <ul className="card-list">
             <li>Volume-based discounts for high-volume firms</li>
             <li>Retainer arrangements available</li>
