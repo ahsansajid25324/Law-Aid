@@ -15,7 +15,6 @@ const App = () => {
   }, [location.pathname]);
 
   useEffect(() => {
-    // Check if the script is already loaded (to prevent duplicates)
     if (document.getElementById("ze-snippet")) return;
 
     const script = document.createElement("script");
