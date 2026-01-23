@@ -20,7 +20,7 @@ const Footer = () => {
             >
               <FaLinkedinIn />
             </a>
-            <a href="#">
+            <a href="mailto:info@law-aid.org">
               <MdOutlineEmail />
             </a>
           </div>
