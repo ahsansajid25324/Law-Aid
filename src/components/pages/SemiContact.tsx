@@ -10,8 +10,8 @@ const SemiContact = () => {
     {
       icon: <Phone />,
       title: "Phone",
-      description: "+1 (888) 512 2168",
-      quote: "Monday - Friday, 9AM - 6PM EST",
+      description: "+1 (346) 547-5427",
+      quote: "Monday - Friday, 10:00 AM - 5:00 PM CST",
     },
     {
       icon: <MapPin />,
@@ -20,7 +20,6 @@ const SemiContact = () => {
       quote: "2600 S Gessner Road, Houston, TX, 77063",
     },
   ];
-
 
   // fd
   return (

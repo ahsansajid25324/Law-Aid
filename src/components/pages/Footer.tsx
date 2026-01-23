@@ -10,12 +10,14 @@ const Footer = () => {
         {/* Column 1 */}
         <div className="footer-col footer-about">
           <img src={Logo} alt="LawAid Management Logo" />
-          <p>
-            U.S.-based Paralegal services
-          </p>
+          <p>U.S.-based Paralegal services</p>
 
           <div className="footer-social">
-            <a href="#">
+            <a
+              href="https://www.linkedin.com/company/lawaid-management/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaLinkedinIn />
             </a>
             <a href="#">
