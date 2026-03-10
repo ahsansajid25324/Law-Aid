@@ -834,7 +834,7 @@ const Immigration = () => {
                     Operational elements such as training systems, brand
                     management, and internal processes remain the responsibility
                     of the original business owner. Our role focuses on ensuring
-                    that the <strong>legal structure</strong>
+                    that the <strong>legal structure</strong>{" "}
                     supporting the franchise system is properly established.
                   </p>
                 </div>
@@ -1303,7 +1303,7 @@ const Immigration = () => {
                   <p className="law-text">Proven Track Record:</p>
                   <p>
                     Our deep understanding of the{" "}
-                    <strong>U.S. market entry process</strong>
+                    <strong>U.S. market entry process</strong>{" "}
                     ensures that the businesses we support are positioned for
                     long-term operational stability and regulatory compliance.
                   </p>
@@ -1457,6 +1457,3 @@ const Immigration = () => {
 };
 
 export default Immigration;
-
-
-// fds
