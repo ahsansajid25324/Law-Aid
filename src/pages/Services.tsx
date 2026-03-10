@@ -18,7 +18,6 @@ const Services = () => {
     ],
   };
 
-  // fds
   return (
     <>
       <Navbar />
