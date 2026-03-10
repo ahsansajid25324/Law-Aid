@@ -69,6 +69,7 @@ const LegalSupportSection = () => {
             </div>
           </div>
         </div>
+
         <div className="legal-support-right">
           <img src={Support} alt="Law Firm" className="main-image" />
           <div className="stats-card">
