@@ -10,14 +10,15 @@ const HeroSection = () => {
           <div className="d-flex align-items-center">
             <span className="subtitle-line"></span>
             <span className="subtitle">
-              HELPING ATTORNEYS GROW THEIR BUSINESS ACROSS THE GLOBE
+              HELPING INDIVIDUALS & COMPANIES GROW THEIR BUSINESS ACROSS THE
+              US{" "}
             </span>
           </div>
           <h1>Legal Precision. Efficient Workflows. Reliable Execution.</h1>
           <p>
-            LawAid Management partners with attorneys and law firms across the
-            United States, delivering structured immigration, business, and
-            humanitarian case support services with unwavering precision.
+            Structured, scalable support designed exclusively for U.S.
+            Immigration Attorneys / law firms & foreign businesses-through
+            reliable execution.
           </p>
           <div className="hero-actions">
             <button

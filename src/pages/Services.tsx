@@ -8,9 +8,9 @@ import ServiceBg from "../assets/ServiceBg.png";
 const Services = () => {
   const heroData = {
     subtitle: "OUR SERVICES",
-    title: "Immigration Case Support Services",
+    title: "Immigration & Business Support Services",
     description:
-      "Structured, scalable support designed exclusively for U.S. immigration attorneys and law firms—strengthening attorney-led representation through reliable execution.",
+      "Structured, scalable support designed exclusively for U.S. Immigration Attorneys / law firms & foreign businesses-through reliable execution.",
     stats: [
       { number: "6", label: "Core Services" },
       { number: "2500+", label: "Cases Delivered" },
