@@ -5,6 +5,7 @@ import OtherHero from "../components/pages/OtherHero";
 import Practice from "../components/pages/Practice";
 import StartedSection from "../components/pages/StartedSection";
 import ServiceBg from "../assets/ServiceBg.png";
+import SubPractice from "../components/pages/SubPractice";
 const Services = () => {
   const heroData = {
     subtitle: "OUR SERVICES",
@@ -30,6 +31,8 @@ const Services = () => {
       />
 
       <Practice />
+      <SubPractice />
+
       <Immigration />
       <StartedSection
         title="Ready to Scale Your Practice?"
