@@ -1,5 +1,4 @@
 import "../../styles/Practice.css";
-import Support from "../../assets/Services.png";
 import "../../styles/HeroSection.css";
 
 const SubPractice = () => {
@@ -40,11 +39,11 @@ const SubPractice = () => {
         </div>
 
         <div className="practice-support-right">
-          <img src={Support} alt="Business Expansion" className="pro-image" />
+          <img src={"expantion.png"} alt="Business Expansion" className="pro-image" />
 
           <div className="exec-stats-card">
             <h3 className="exec-stats-number text-dark"> 400+</h3>
-            <p className="exec-stats-description">Businesses setup in U.S </p>
+            <p className="exec-stats-description">Businesses setup in United States </p>
           </div>
         </div>
       </div>

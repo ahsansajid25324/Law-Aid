@@ -538,39 +538,8 @@ const Immigration = () => {
             </div>
             {/* RIGHT IMAGE */}
             <div className="imm-support-image custom-card-image">
-              <img src={im} alt="Immigration Case Support" />
-              <div className="custom-card-overlay">
-                <span className="custom-badge">
-                  <span className="custom-badge-dot">
-                    <svg
-                      width="18"
-                      height="20"
-                      viewBox="0 0 14 14 "
-                      fill="none"
-                    >
-                      <circle
-                        cx="6.5"
-                        cy="6.5"
-                        r="6"
-                        stroke="#1A3A36"
-                        strokeWidth="1"
-                      />
-                      <path
-                        d="M4 7L6 9L9 5"
-                        stroke="#1A3A36"
-                        strokeWidth="1.5"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                    </svg>
-                  </span>{" "}
-                  Attorney-Controlled
-                </span>
-                <div className="custom-card-subtitle">
-                  Professional support while maintaining full attorney oversight
-                  and control
-                </div>
-              </div>
+              <img src={"role.jpg"} alt="Immigration Case Support" />
+              <div className="custom-card-overlay"></div>
             </div>
           </div>
 
@@ -581,39 +550,7 @@ const Immigration = () => {
 
               {/* RIGHT IMAGE */}
               <div className="imm-support-image custom-card-image">
-                <img src={im2} alt="Immigration Case Support" />
-                <div className="custom-card-overlay">
-                  <span className="custom-badge">
-                    <span className="custom-badge-dot">
-                      <svg
-                        width="18"
-                        height="20"
-                        viewBox="0 0 14 14 "
-                        fill="none"
-                      >
-                        <circle
-                          cx="6.5"
-                          cy="6.5"
-                          r="6"
-                          stroke="#1A3A36"
-                          strokeWidth="1"
-                        />
-                        <path
-                          d="M4 7L6 9L9 5"
-                          stroke="#1A3A36"
-                          strokeWidth="1.5"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        />
-                      </svg>
-                    </span>{" "}
-                    Attorney-Controlled
-                  </span>
-                  <div className="custom-card-subtitle">
-                    Professional support while maintaining full attorney
-                    oversight and control
-                  </div>
-                </div>
+                <img src={"business.jpg"} alt="Immigration Case Support" />
               </div>
               <div className="imm-support-text mt-0 mt-md-0">
                 <h3>Businesses We Work With</h3>
@@ -722,39 +659,7 @@ const Immigration = () => {
             </div>
             {/* RIGHT IMAGE */}
             <div className="imm-support-image custom-card-image">
-              <img src={im} alt="Immigration Case Support" />
-              <div className="custom-card-overlay">
-                <span className="custom-badge">
-                  <span className="custom-badge-dot">
-                    <svg
-                      width="18"
-                      height="20"
-                      viewBox="0 0 14 14 "
-                      fill="none"
-                    >
-                      <circle
-                        cx="6.5"
-                        cy="6.5"
-                        r="6"
-                        stroke="#1A3A36"
-                        strokeWidth="1"
-                      />
-                      <path
-                        d="M4 7L6 9L9 5"
-                        stroke="#1A3A36"
-                        strokeWidth="1.5"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                    </svg>
-                  </span>{" "}
-                  Attorney-Controlled
-                </span>
-                <div className="custom-card-subtitle">
-                  Professional support while maintaining full attorney oversight
-                  and control
-                </div>
-              </div>
+              <img src={"directBusiness.jpg"} alt="Immigration Case Support" />
             </div>
           </div>
 
@@ -765,39 +670,7 @@ const Immigration = () => {
 
               {/* RIGHT IMAGE */}
               <div className="imm-support-image custom-card-image">
-                <img src={im2} alt="Immigration Case Support" />
-                <div className="custom-card-overlay">
-                  <span className="custom-badge">
-                    <span className="custom-badge-dot">
-                      <svg
-                        width="18"
-                        height="20"
-                        viewBox="0 0 14 14 "
-                        fill="none"
-                      >
-                        <circle
-                          cx="6.5"
-                          cy="6.5"
-                          r="6"
-                          stroke="#1A3A36"
-                          strokeWidth="1"
-                        />
-                        <path
-                          d="M4 7L6 9L9 5"
-                          stroke="#1A3A36"
-                          strokeWidth="1.5"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        />
-                      </svg>
-                    </span>{" "}
-                    Attorney-Controlled
-                  </span>
-                  <div className="custom-card-subtitle">
-                    Professional support while maintaining full attorney
-                    oversight and control
-                  </div>
-                </div>
+                <img src={"franchise.jpg"} alt="Immigration Case Support" />
               </div>
               <div className="imm-support-text mt-0 mt-md-0">
                 <h3>Franchise Development & Structuring</h3>
@@ -834,8 +707,8 @@ const Immigration = () => {
                     Operational elements such as training systems, brand
                     management, and internal processes remain the responsibility
                     of the original business owner. Our role focuses on ensuring
-                    that the <strong>legal structure</strong>{" "}
-                    supporting the franchise system is properly established.
+                    that the <strong>legal structure</strong> supporting the
+                    franchise system is properly established.
                   </p>
                 </div>
               </div>
@@ -885,39 +758,10 @@ const Immigration = () => {
             </div>
             {/* RIGHT IMAGE */}
             <div className="imm-support-image custom-card-image">
-              <img src={im} alt="Immigration Case Support" />
-              <div className="custom-card-overlay">
-                <span className="custom-badge">
-                  <span className="custom-badge-dot">
-                    <svg
-                      width="18"
-                      height="20"
-                      viewBox="0 0 14 14 "
-                      fill="none"
-                    >
-                      <circle
-                        cx="6.5"
-                        cy="6.5"
-                        r="6"
-                        stroke="#1A3A36"
-                        strokeWidth="1"
-                      />
-                      <path
-                        d="M4 7L6 9L9 5"
-                        stroke="#1A3A36"
-                        strokeWidth="1.5"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                    </svg>
-                  </span>{" "}
-                  Attorney-Controlled
-                </span>
-                <div className="custom-card-subtitle">
-                  Professional support while maintaining full attorney oversight
-                  and control
-                </div>
-              </div>
+              <img
+                src={"businessImmigration.jpg"}
+                alt="Immigration Case Support"
+              />
             </div>
           </div>
 
@@ -928,39 +772,10 @@ const Immigration = () => {
 
               {/* RIGHT IMAGE */}
               <div className="imm-support-image custom-card-image">
-                <img src={im2} alt="Immigration Case Support" />
-                <div className="custom-card-overlay">
-                  <span className="custom-badge">
-                    <span className="custom-badge-dot">
-                      <svg
-                        width="18"
-                        height="20"
-                        viewBox="0 0 14 14 "
-                        fill="none"
-                      >
-                        <circle
-                          cx="6.5"
-                          cy="6.5"
-                          r="6"
-                          stroke="#1A3A36"
-                          strokeWidth="1"
-                        />
-                        <path
-                          d="M4 7L6 9L9 5"
-                          stroke="#1A3A36"
-                          strokeWidth="1.5"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        />
-                      </svg>
-                    </span>{" "}
-                    Attorney-Controlled
-                  </span>
-                  <div className="custom-card-subtitle">
-                    Professional support while maintaining full attorney
-                    oversight and control
-                  </div>
-                </div>
+                <img
+                  src={"businessStructure.jpg"}
+                  alt="Immigration Case Support"
+                />
               </div>
               <div className="imm-support-text mt-0 mt-md-0">
                 <h3>U.S. Business Structuring</h3>
@@ -1038,39 +853,7 @@ const Immigration = () => {
             </div>
             {/* RIGHT IMAGE */}
             <div className="imm-support-image custom-card-image">
-              <img src={im} alt="Immigration Case Support" />
-              <div className="custom-card-overlay">
-                <span className="custom-badge">
-                  <span className="custom-badge-dot">
-                    <svg
-                      width="18"
-                      height="20"
-                      viewBox="0 0 14 14 "
-                      fill="none"
-                    >
-                      <circle
-                        cx="6.5"
-                        cy="6.5"
-                        r="6"
-                        stroke="#1A3A36"
-                        strokeWidth="1"
-                      />
-                      <path
-                        d="M4 7L6 9L9 5"
-                        stroke="#1A3A36"
-                        strokeWidth="1.5"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                    </svg>
-                  </span>{" "}
-                  Attorney-Controlled
-                </span>
-                <div className="custom-card-subtitle">
-                  Professional support while maintaining full attorney oversight
-                  and control
-                </div>
-              </div>
+              <img src={"investor.jpeg"} alt="Immigration Case Support" />
             </div>
           </div>
 
@@ -1081,39 +864,7 @@ const Immigration = () => {
 
               {/* RIGHT IMAGE */}
               <div className="imm-support-image custom-card-image">
-                <img src={im2} alt="Immigration Case Support" />
-                <div className="custom-card-overlay">
-                  <span className="custom-badge">
-                    <span className="custom-badge-dot">
-                      <svg
-                        width="18"
-                        height="20"
-                        viewBox="0 0 14 14 "
-                        fill="none"
-                      >
-                        <circle
-                          cx="6.5"
-                          cy="6.5"
-                          r="6"
-                          stroke="#1A3A36"
-                          strokeWidth="1"
-                        />
-                        <path
-                          d="M4 7L6 9L9 5"
-                          stroke="#1A3A36"
-                          strokeWidth="1.5"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        />
-                      </svg>
-                    </span>{" "}
-                    Attorney-Controlled
-                  </span>
-                  <div className="custom-card-subtitle">
-                    Professional support while maintaining full attorney
-                    oversight and control
-                  </div>
-                </div>
+                <img src={"expantion.png"} alt="Immigration Case Support" />
               </div>
               <div className="imm-support-text mt-0 mt-md-0">
                 <h3>Our Expansion Process</h3>
@@ -1206,39 +957,7 @@ const Immigration = () => {
             </div>
             {/* RIGHT IMAGE */}
             <div className="imm-support-image custom-card-image">
-              <img src={im} alt="Immigration Case Support" />
-              <div className="custom-card-overlay">
-                <span className="custom-badge">
-                  <span className="custom-badge-dot">
-                    <svg
-                      width="18"
-                      height="20"
-                      viewBox="0 0 14 14 "
-                      fill="none"
-                    >
-                      <circle
-                        cx="6.5"
-                        cy="6.5"
-                        r="6"
-                        stroke="#1A3A36"
-                        strokeWidth="1"
-                      />
-                      <path
-                        d="M4 7L6 9L9 5"
-                        stroke="#1A3A36"
-                        strokeWidth="1.5"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                    </svg>
-                  </span>{" "}
-                  Attorney-Controlled
-                </span>
-                <div className="custom-card-subtitle">
-                  Professional support while maintaining full attorney oversight
-                  and control
-                </div>
-              </div>
+              <img src={"advantage.jpeg"} alt="Immigration Case Support" />
             </div>
           </div>
 
@@ -1249,39 +968,7 @@ const Immigration = () => {
 
               {/* RIGHT IMAGE */}
               <div className="imm-support-image custom-card-image">
-                <img src={im2} alt="Immigration Case Support" />
-                <div className="custom-card-overlay">
-                  <span className="custom-badge">
-                    <span className="custom-badge-dot">
-                      <svg
-                        width="18"
-                        height="20"
-                        viewBox="0 0 14 14 "
-                        fill="none"
-                      >
-                        <circle
-                          cx="6.5"
-                          cy="6.5"
-                          r="6"
-                          stroke="#1A3A36"
-                          strokeWidth="1"
-                        />
-                        <path
-                          d="M4 7L6 9L9 5"
-                          stroke="#1A3A36"
-                          strokeWidth="1.5"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        />
-                      </svg>
-                    </span>{" "}
-                    Attorney-Controlled
-                  </span>
-                  <div className="custom-card-subtitle">
-                    Professional support while maintaining full attorney
-                    oversight and control
-                  </div>
-                </div>
+                <img src={"experience.jpg"} alt="Immigration Case Support" />
               </div>
               <div className="imm-support-text mt-0 mt-md-0">
                 <h3>Our Experience</h3>
@@ -1303,9 +990,9 @@ const Immigration = () => {
                   <p className="law-text">Proven Track Record:</p>
                   <p>
                     Our deep understanding of the{" "}
-                    <strong>U.S. market entry process</strong>{" "}
-                    ensures that the businesses we support are positioned for
-                    long-term operational stability and regulatory compliance.
+                    <strong>U.S. market entry process</strong> ensures that the
+                    businesses we support are positioned for long-term
+                    operational stability and regulatory compliance.
                   </p>
                 </div>
               </div>
@@ -1346,39 +1033,7 @@ const Immigration = () => {
             </div>
             {/* RIGHT IMAGE */}
             <div className="imm-support-image custom-card-image">
-              <img src={im} alt="Immigration Case Support" />
-              <div className="custom-card-overlay">
-                <span className="custom-badge">
-                  <span className="custom-badge-dot">
-                    <svg
-                      width="18"
-                      height="20"
-                      viewBox="0 0 14 14 "
-                      fill="none"
-                    >
-                      <circle
-                        cx="6.5"
-                        cy="6.5"
-                        r="6"
-                        stroke="#1A3A36"
-                        strokeWidth="1"
-                      />
-                      <path
-                        d="M4 7L6 9L9 5"
-                        stroke="#1A3A36"
-                        strokeWidth="1.5"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                    </svg>
-                  </span>{" "}
-                  Attorney-Controlled
-                </span>
-                <div className="custom-card-subtitle">
-                  Professional support while maintaining full attorney oversight
-                  and control
-                </div>
-              </div>
+              <img src={"ready.jpg"} alt="Immigration Case Support" />
             </div>
           </div>
 
@@ -1389,39 +1044,7 @@ const Immigration = () => {
 
               {/* RIGHT IMAGE */}
               <div className="imm-support-image custom-card-image">
-                <img src={im2} alt="Immigration Case Support" />
-                <div className="custom-card-overlay">
-                  <span className="custom-badge">
-                    <span className="custom-badge-dot">
-                      <svg
-                        width="18"
-                        height="20"
-                        viewBox="0 0 14 14 "
-                        fill="none"
-                      >
-                        <circle
-                          cx="6.5"
-                          cy="6.5"
-                          r="6"
-                          stroke="#1A3A36"
-                          strokeWidth="1"
-                        />
-                        <path
-                          d="M4 7L6 9L9 5"
-                          stroke="#1A3A36"
-                          strokeWidth="1.5"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        />
-                      </svg>
-                    </span>{" "}
-                    Attorney-Controlled
-                  </span>
-                  <div className="custom-card-subtitle">
-                    Professional support while maintaining full attorney
-                    oversight and control
-                  </div>
-                </div>
+                <img src={"start.png"} alt="Immigration Case Support" />
               </div>
               <div className="imm-support-text mt-0 mt-md-0">
                 <h3>Start Your U.S. Expansion Journey</h3>
