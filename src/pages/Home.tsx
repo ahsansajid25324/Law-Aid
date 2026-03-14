@@ -7,12 +7,15 @@ import LegalSupportSection from "../components/pages/LegalSupportSection";
 import Navbar from "../components/pages/Navbar";
 import SemiContact from "../components/pages/SemiContact";
 import StartedSection from "../components/pages/StartedSection";
+import SubLegal from "../components/pages/SubLegal";
 const Home = () => {
   return (
     <>
       <Navbar />
       <HeroSection />
       <LegalSupportSection />
+      <SubLegal />
+
       <LegalSection />
       <EndSection />
       <AdvantageSection />

@@ -39,11 +39,17 @@ const SubPractice = () => {
         </div>
 
         <div className="practice-support-right">
-          <img src={"expantion.png"} alt="Business Expansion" className="pro-image" />
+          <img
+            src={"expantion.png"}
+            alt="Business Expansion"
+            className="pro-image"
+          />
 
           <div className="exec-stats-card">
             <h3 className="exec-stats-number text-dark"> 400+</h3>
-            <p className="exec-stats-description">Businesses setup in United States </p>
+            <p className="exec-stats-description">
+              Businesses setup in United States{" "}
+            </p>
           </div>
         </div>
       </div>
