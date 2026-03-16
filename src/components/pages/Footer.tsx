@@ -104,7 +104,7 @@ const Footer = () => {
       {/* Bottom */}
       <div className="footer-bottom">
         <p>© 2026 LawAid Management. All rights reserved.</p>
-        <p>Serving U.S. Law Firms with Precision and Integrity</p>
+        <p>Serving U.S. Law Firms & Foreign Businesses with Precision and Integrity</p>
       </div>
     </footer>
   );
