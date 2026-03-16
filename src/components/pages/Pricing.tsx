@@ -20,12 +20,22 @@ const Pricing = () => {
             <span className="subtitle-line"></span>
           </div>
           <h2 className="main-heading  text-center">
-            Choose a Paid Subscription That's Built for Your Law Firm
+            Choose a Plan
+            <br></br>
+            That's Built For Your Business
           </h2>
           <p className="pricing-description text-center">
             Select the plan that fits your firm's needs. All plans include
             comprehensive paralegal support and can be customized for your
             practice.
+          </p>
+          <p className="pricing-description text-center">
+            <strong>
+              Pricing for moving your business to United States is customized to
+              each business. Please fill out our form with your business
+              information & our pricing team will get in contact with you
+              shortly
+            </strong>
           </p>
         </div>
       </div>

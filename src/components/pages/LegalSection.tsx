@@ -12,10 +12,10 @@ const LegalSection = () => {
             <span className="subtitle">WHAT WE SERVE</span>
           </div>{" "}
           <h2 className="main-heading">
-            Exclusively Serving the Legal Profession{" "}
+            Serving the Legal Profession{" "}
           </h2>
           <p className="legal-description">
-            LawAid management exclusively serves attorneys and law firms across
+            LawAid management serves attorneys and law firms across
             the United States. Each engagement is structured to align with your
             practice focus, internal processes, timelines, and risk profile.
           </p>

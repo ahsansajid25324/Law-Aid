@@ -11,11 +11,12 @@ const Services = () => {
     subtitle: "OUR SERVICES",
     title: "Immigration & Business Support Services",
     description:
-      "Structured, scalable support designed exclusively for U.S. Immigration Attorneys / law firms & foreign businesses-through reliable execution.",
+      "Structured, scalable support designed exclusively for U.S. Immigration Attorneys/ law firms & foreign businesses-through reliable execution.",
     stats: [
       { number: "6", label: "Core Services" },
       { number: "2500+", label: "Cases Delivered" },
       { number: "100%", label: "Attorney-Controlled" },
+      { number: "400+", label: "Businesses Setup" },
     ],
   };
 

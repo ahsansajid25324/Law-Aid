@@ -16,9 +16,7 @@ const HeroSection = () => {
           </div>
           <h1>Legal Precision. Efficient Workflows. Reliable Execution.</h1>
           <p>
-            Structured, scalable support designed exclusively for U.S.
-            Immigration Attorneys / law firms & foreign businesses-through
-            reliable execution.
+            Structured, scalable support designed for U.S. Immigration Attorneys/ law firms & foreign businesses-through reliable execution.
           </p>
           <div className="hero-actions">
             <button
@@ -27,7 +25,7 @@ const HeroSection = () => {
                 window.open("https://zfrmz.com/tmeXpeb2zZy1P8Dj9gTb", "_blank");
               }}
             >
-              Start a Law Firm Inquiry
+              Start an Inquiry
             </button>
             <button
               className="secondary-btn"
@@ -48,6 +46,10 @@ const HeroSection = () => {
             <div>
               <span className="stat-number">3+</span>
               <span className="stat-label">Years Experience</span>
+            </div>
+            <div>
+              <span className="stat-number">400+</span>
+              <span className="stat-label">Businesses Setup</span>
             </div>
           </div>
         </div>

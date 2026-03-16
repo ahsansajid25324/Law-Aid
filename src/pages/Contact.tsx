@@ -9,7 +9,7 @@ const Contact = () => {
     subtitle: "GET IN TOUCH",
     title: "Contact LawAid Management",
     description:
-      "LawAid management partners exclusively with U.S. immigration attorneys and law firms to provide structured, reliable legal and operational support services. If your firm is seeking scalable capacity, consistent execution, or specialized case support, our team is ready to assist.",
+      "LawAid management partners with U.S. immigration attorneys/ law firms & foreign businesses to provide structured, reliable legal support services. If your business is seeking scalable capacity, consistent execution, or specialized case support, our team is ready to assist.",
   };
 
   return (

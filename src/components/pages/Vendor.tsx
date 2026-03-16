@@ -42,7 +42,7 @@ const Vendor = () => {
       icon: <Briefcase />,
       title: "Strategic Alignment",
       description:
-        "Services tailored to firm goals and caseload realities. Whether supporting a solo attorney or a multi-attorney practice, our focus remains the same: reliable execution and measurable value.",
+        "Services tailored to firm goals and caseload realities. Whether supporting a solo attorney/ multi-attorney practice or a foreign business, our focus remains the same: reliable execution and measurable value.",
     },
   ];
 
@@ -106,9 +106,9 @@ const Vendor = () => {
           Reliable Execution. Reduced Burden. Measurable Value.
         </h2>
         <p className="vendor-banner-subheading">
-          Whether supporting a solo attorney or a multi-attorney practice, our
+          Whether supporting a solo attorney/ multi-attorney practice or a foreign business move to the United States, our
           focus remains the same: delivering operational excellence that
-          strengthens your firm's capacity to serve clients effectively.
+          strengthens your firm's capacity & your presence in the U.S. to serve clients effectively.
         </p>
       </div>
     </section>

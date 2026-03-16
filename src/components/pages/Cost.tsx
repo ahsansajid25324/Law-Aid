@@ -27,7 +27,7 @@ const Cost = () => {
       icon: <CheckCircle2 />,
       title: "Custom Options",
       description:
-        "Tailored pricing available for complex cases or unique firm requirements",
+        "Tailored pricing available for complex cases, unique firm requirements or for moving your business to the United States",
     },
   ];
   return (
@@ -47,7 +47,7 @@ const Cost = () => {
           </h2>
           <p className="cost-description text-center">
             Our pricing structure is designed to eliminate uncertainty and
-            provide law firms with scalable, cost-effective support that
+            provide businesses with scalable, cost-effective support that
             enhances operational efficiency.
           </p>
         </div>

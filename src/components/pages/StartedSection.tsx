@@ -27,7 +27,7 @@ const StartedSection = ({ title, subtitle }: StartedSectionProps) => {
             }}
             className="primary-btn"
           >
-            Start a Law Firm Inquiry
+            Start an Inquiry
           </button>
           <button
             className="secondary-btn"

@@ -10,7 +10,7 @@ const Footer = () => {
         {/* Column 1 */}
         <div className="footer-col footer-about">
           <img src={Logo} alt="LawAid Management Logo" />
-          <p>U.S.-based Paralegal services</p>
+          <p>U.S.-based Paralegal & Business Consultation Services</p>
 
           <div className="footer-social">
             <a
@@ -33,6 +33,11 @@ const Footer = () => {
             <li>
               <Link to="/services">Immigration Support</Link>
             </li>
+            <ul className="cursor-pointer">
+              <li>
+                <Link to="/services">Foreign Business Support</Link>
+              </li>
+            </ul>
             <ul className="cursor-pointer">
               <li>
                 <Link to="/services">Business Support</Link>

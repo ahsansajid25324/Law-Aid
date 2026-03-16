@@ -124,7 +124,7 @@ const AdvantageSection = () => {
           <img src={WorkflowsImage} alt="Law Firm Workflows" />
         </div>
         <div className="workflows-content">
-          <h2>Built Specifically for Immigration Attorneys</h2>
+          <h2>Built for Immigration Attorneys</h2>
           <p>
             Our services integrate seamlessly into attorney-led practices,
             enhancing capacity, consistency, and efficiency without compromising

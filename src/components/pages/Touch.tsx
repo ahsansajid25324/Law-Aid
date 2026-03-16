@@ -35,7 +35,7 @@ const Touch = () => {
 
           <p className="touch-description">
             Reach out to discuss partnership opportunities and how we can
-            support your firm's growth.
+            support your business's growth.
           </p>
         </div>
       </div>

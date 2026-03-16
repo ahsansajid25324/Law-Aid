@@ -15,6 +15,8 @@ const About = () => {
       { number: "3+", label: "Years of Service" },
       { number: "2500+", label: "Cases Delivered" },
       { number: "20+", label: "Law Firms Partners" },
+      { number: "400+", label: "Businesses Setup" },
+      
     ],
   };
 

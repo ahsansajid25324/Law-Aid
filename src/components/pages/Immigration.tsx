@@ -352,7 +352,7 @@ const Immigration = () => {
             {/* RIGHT IMAGE */}
 
             <div className="imm-support-text">
-              <h3>Business Identification & Acquisition Support (E-2 / L-1)</h3>
+              <h3>Business Identification & Acquisition Support (E-2/ L-1)</h3>
 
               <p className="intro-text">
                 LawAid management provides specialized operational support for

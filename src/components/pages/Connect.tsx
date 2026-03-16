@@ -15,7 +15,7 @@ const Connect = () => {
             <div className="connect-row">
               <img src={Dtick} alt="checkmark" className="connect-icon" />
               <span>
-                Law firms may initiate contact via email or phone to discuss
+                Law firms & foreign businesses may initiate contact via email or phone to discuss
                 partnership opportunities, service scope, or workflow
                 integration. Every inquiry is reviewed confidentially and
                 handled with professionalism, discretion, and respect for
@@ -26,7 +26,7 @@ const Connect = () => {
               <img src={Dtick} alt="checkmark" className="connect-icon" />
               <span>
                 Following initial contact, our team will coordinate a structured
-                discussion to understand your firm’s needs and determine the
+                discussion to understand your business’s needs and determine the
                 most effective engagement model.
               </span>
             </div>
