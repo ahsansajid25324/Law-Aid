@@ -71,13 +71,15 @@ const AdvantageSection = () => {
         <div className="set-advantage">
           <div className="subtitle-with-line">
             <span className="subtitle-line"></span>
-            <span className="subtitle subtitle-right">WHY LAWAID MANAGEMENT </span>
+            <span className="subtitle subtitle-right">
+              WHY LAWAID MANAGEMENT{" "}
+            </span>
             <span className="subtitle-line"></span>
           </div>
           <h2 className="main-heading">The LawAid Management Advantage</h2>
           <p className="advantage-description">
-            Law firms partner with LawAid management because we deliver reliable execution
-            without operational burden
+            Law firms partner with LawAid management because we deliver reliable
+            execution without operational burden
           </p>
         </div>
 
@@ -144,6 +146,45 @@ const AdvantageSection = () => {
               caseload and timeline
             </li>
           </ul>
+        </div>
+      </div>
+
+      <div className="container px-0 imm-support-grid">
+        {/* LEFT CONTENT */}
+        <div className="imm-support-text">
+          <h3>The LawAid Management Advantage</h3>
+
+          <p className="intro-text">
+            International expansion often requires working with multiple
+            professionals and specialized service providers to ensure a
+            successful U.S. market entry.
+          </p>
+
+          <p>
+            Navigating these requirements independently can be complex.
+            Typically, businesses may need to coordinate with:
+          </p>
+
+          <ul className="support-list">
+            <li>Immigration lawyers</li>
+            <li>Corporate consultants</li>
+            <li>Franchise advisors</li>
+            <li>Legal documentation specialists</li>
+          </ul>
+
+          <div className="law-firm-box bg-white">
+            <p className="law-text">The LawAid Solution:</p>
+            <p>
+              LawAid Management provides a <strong>structured platform</strong>{" "}
+              that helps coordinate these elements, allowing entrepreneurs to
+              navigate the expansion process more efficiently and with greater
+              strategic alignment.
+            </p>
+          </div>
+        </div>
+        {/* RIGHT IMAGE */}
+        <div className="imm-support-image custom-card-image">
+          <img src={"advantage.jpeg"} alt="Immigration Case Support" />
         </div>
       </div>
     </section>
