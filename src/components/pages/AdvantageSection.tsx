@@ -152,7 +152,7 @@ const AdvantageSection = () => {
       <div className="container px-0 imm-support-grid">
         {/* LEFT CONTENT */}
         <div className="imm-support-text">
-          <h3>The LawAid Management Advantage</h3>
+          <h3>Advantage For Foreign Businesses</h3>
 
           <p className="intro-text">
             International expansion often requires working with multiple
