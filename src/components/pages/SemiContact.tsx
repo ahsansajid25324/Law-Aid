@@ -17,7 +17,7 @@ const SemiContact = () => {
       icon: <MapPin />,
       title: "Location",
       description: "United States",
-      quote: "2600 S Gessner Road, Houston, TX, 77063",
+      quote: "11011 Richmond Ave Ste 820, Houston, TX 77042",
     },
   ];
 

@@ -13,22 +13,6 @@ const App = () => {
     window.scrollTo(0, 0);
   }, [location.pathname]);
 
-  useEffect(() => {
-    if (document.getElementById("ze-snippet")) return;
-
-    const script = document.createElement("script");
-    script.id = "ze-snippet";
-    script.src =
-      "https://static.zdassets.com/ekr/snippet.js?key=407014fb-0de6-47f9-8332-022b890b137d";
-    script.async = true;
-    document.body.appendChild(script);
-
-    return () => {
-      const existingScript = document.getElementById("ze-snippet");
-      if (existingScript) existingScript.remove();
-      delete window.zE; // remove Zendesk global object
-    };
-  }, []);
   return (
     <div>
       <Routes>
