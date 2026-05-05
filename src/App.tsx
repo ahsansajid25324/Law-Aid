@@ -6,9 +6,11 @@ import Pricing from "./pages/Pricing";
 import Services from "./pages/Services";
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
-
+import { useCountry } from "./hooks/useCountry";
 const App = () => {
   const location = useLocation();
+  const { country, loading } = useCountry();
+  console.log("User country:", country, "Loading:", loading);
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [location.pathname]);
