@@ -3,8 +3,7 @@ import OtherHero from "../components/pages/OtherHero";
 import StartedSection from "../components/pages/StartedSection";
 import Footer from "../components/pages/Footer";
 
-// If you have a specific background image for this page, import it here.
-// Otherwise, you can reuse ServiceBg or any other hero image asset you have.
+
 import ServiceBg from "../assets/ServiceBg.png";
 
 const BusinessPlan = () => {
