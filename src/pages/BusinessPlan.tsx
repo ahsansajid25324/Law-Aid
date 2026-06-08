@@ -504,7 +504,6 @@ const BusinessPlan = () => {
               </p>
             </div>
 
-            {/* Right Box: Pricing Card */}
             <div
               className="workflows-content responsive-split-right"
               style={{
