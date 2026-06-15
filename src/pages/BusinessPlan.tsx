@@ -19,6 +19,9 @@ const BusinessPlan = () => {
     ],
   };
 
+
+  // fds
+
   const responsiveStyles = `
     .responsive-split-container {
       display: flex;
