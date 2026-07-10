@@ -22,7 +22,6 @@ const Navbar = () => {
   const [openDrawer, setOpenDrawer] = useState<boolean>(false);
   const [showDropdown, setShowDropdown] = useState<boolean>(false);
   const [mobileServicesOpen, setMobileServicesOpen] = useState<boolean>(false);
-
   const location = useLocation();
   const navigate = useNavigate();
 
